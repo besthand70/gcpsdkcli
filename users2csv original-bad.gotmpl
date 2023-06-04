@@ -1,0 +1,23 @@
+{{- range . -}}
+id: {{.id}},name: {{.name}},division: 
+    {{- range $key, $val := .division -}}
+        {{$key}}: {{$val}},
+    {{- end -}}
+    chat:
+    {{- range $key, $val := .chat -}}
+        {{$key}}: {{$val}},
+    {{- end -}}
+    email: {{.email}},primaryContactInfo:
+    {{- range .primaryContactInfo -}}
+        {{- range $key, $val := . -}}
+            {{$key}}: {{$val}},
+        {{- end -}}
+    {{- end -}}
+    addresses:
+    {{- range .addresses -}}
+        {{- range $key, $val := . -}}
+            {{$key}}: {{$val}},
+        {{- end -}}
+    {{- end -}}
+    state: {{.state}},username: {{.username}},version: {{.version}},acdAutoAnswer: {{.acdAutoAnswer}},selfUri: {{.selfUri}},
+{{- end -}}

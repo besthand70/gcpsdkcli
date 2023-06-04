@@ -1,0 +1,204 @@
+{
+  "id": "ac1d31d5-a72d-4ead-a2cd-50a3d471417f",
+  "name": "Remediation Additional Call Grading Form",
+  "modifiedDate": "2023-05-29T12:45:12.762Z",
+  "published": false,
+  "contextId": "48ce6381-2b0f-40c6-9272-a57d62dbdb3f",
+  "questionGroups": [
+    {
+      "id": "d9555157-07ce-4dd3-8b64-878be025e3f8",
+      "name": "Call Grading Group",
+      "type": "questionGroup",
+      "naEnabled": false,
+      "weight": 100.0,
+      "questions": [
+        {
+          "id": "b8bcbbea-f3c3-4bc8-a2c8-09928322d2b0",
+          "text": "A) Has the customer been correctly identified/verified in accordance with procedures;\nB) Have the correct instructions and/or actions been successfully completed?; and\nC) Has the customer achieved a fair outcome?\n(Unfair Customer Outcome and/or Procedural Breach)",
+          "helpText": "Please provide details of which question (A,B,C has failed)",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "253517a7-94bd-4592-9ee2-622c74b2d1f6",
+              "text": "Pass",
+              "value": 10
+            },
+            {
+              "id": "7b2d1499-7468-4059-8eed-6de0ef2ac3db",
+              "text": "Failed",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "1d9ca4ce-d811-403b-b2d2-bd38592f49d2",
+          "text": "Have correct instructions, actions, ask, explain and/or advise statements been successfully completed? ",
+          "helpText": "Fair outcome poor customer experience",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "ce9335e4-8f69-40df-bdc0-fc9d17484ba7",
+              "text": "All criteria met\n",
+              "value": 15
+            },
+            {
+              "id": "e4babb2f-5ae6-4349-9e8f-5c2453f6c7f9",
+              "text": "1 criteria missed",
+              "value": 12
+            },
+            {
+              "id": "d85af6f7-6cf0-434e-9350-844344fad3e7",
+              "text": "2 criteria missed",
+              "value": 9
+            },
+            {
+              "id": "a2c44d4b-1e4d-4bd2-8176-949d50e46b09",
+              "text": "3 criteria missed",
+              "value": 6
+            },
+            {
+              "id": "e54ee1ce-afa5-4beb-9559-14a88a0b0734",
+              "text": "4 criteria",
+              "value": 3
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "dfd68979-ccf6-42fb-9d2c-d9ef5949c9b1",
+          "text": "Have the correct inform statements been provided?",
+          "helpText": "(Unfair Customer Outcome and Procedural Breach)",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "1f3490a8-ce47-4824-8d6c-35cfaecd3bae",
+              "text": "Pass",
+              "value": 10
+            },
+            {
+              "id": "6b4ab0d0-cede-41c1-ac5e-cfe1db34111a",
+              "text": "Failed",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "ae6cf6c3-f5be-4ed9-948d-6929b18c1c0f",
+          "text": "Was the call controlled effectively and professionally handled throughout (acknowledgements, expectations, active listening, taking ownership etc ....)\n",
+          "helpText": "Fair outcome poor customer experience",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "4522d2f3-39c3-4730-8f92-efb24fa13371",
+              "text": "All criteria met\n",
+              "value": 15
+            },
+            {
+              "id": "85632237-b052-4a13-8c58-1a0457d86a38",
+              "text": "1 criteria missed",
+              "value": 12
+            },
+            {
+              "id": "6133ee8a-d57c-4766-93d7-fa977b5d5769",
+              "text": "2 criteria missed",
+              "value": 9
+            },
+            {
+              "id": "ca911e2d-4b71-48f1-a2a9-6572b8d94718",
+              "text": "3 criteria missed",
+              "value": 6
+            },
+            {
+              "id": "3abab9f3-5f5e-4a4c-aadb-086e74da8d33",
+              "text": "4 criteria",
+              "value": 3
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "3fae93f1-393d-4f9b-8a2a-e09903686f39",
+          "text": "Were there any FCC, Sanctions, Bundling or other high risk indicators identified and escalated as per procedures (Regulatory Breach, Financial Crime Risk, Reputational Risk)\n(Procedural Breach) ",
+          "helpText": "DPA's, UAR's, Suspected Fraudsters",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "67686c17-8c78-4435-af7f-e8b4ca406215",
+              "text": "Pass ",
+              "value": 1
+            },
+            {
+              "id": "7c8f8130-7d9d-453d-b0d1-e43888e4f1bc",
+              "text": "Failed",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "5ec05ac4-c9f5-4e76-9f80-9af56514be89",
+          "text": "Have any Financial Inclusion or Vulnerability needs been identified as defined by the FCA, and where they have, had this been recorded correctly in Customer care needs procdure?\n(Unfair Customer Outcome and Procedural Breach)",
+          "helpText": "Have we identified a PVC customer and followed procedures and taken appropriate action.",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "d4375b99-74ac-47a7-83ab-fb18778e6210",
+              "text": "Pass",
+              "value": 1
+            },
+            {
+              "id": "a87364fc-9e59-4113-9566-8bd95016186c",
+              "text": "Fail",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "8d787cf4-c4cb-4585-af0c-b5a862b54011",
+          "text": "Any Expression of Dissatisfaction - whether justified or not - about products, services which suggests we've caused (or might cause) financial loss, or distress or more than minor inconvenience.  Has been recorded appropriately?\n(Unfair Customer Outcome and Procedural Breach)",
+          "helpText": "Have we identified the expression of dissatisfaction and have we either raised either feedback, FPOC or Complaint for Action in accordance to guidance.",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "67a29c1b-7364-443d-8fef-d1832a16d14d",
+              "text": "Pass",
+              "value": 1
+            },
+            {
+              "id": "aa1694c5-d191-49f9-b7f3-6f77c369386b",
+              "text": "Fail ",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        }
+      ]
+    }
+  ],
+  "weightMode": "SCALED",
+  "selfUri": "/api/v2/quality/forms/evaluations/ac1d31d5-a72d-4ead-a2cd-50a3d471417f"
+}

@@ -1,0 +1,8 @@
+role,legacyPermission
+{{- range $index, $element := . -}}
+    {{$rolename := print .name " (B:" .base " D:" .default ")" }}
+	{{- range $legacyPerm := .permissions }}
+{{$rolename}},{{ $legacyPerm }}
+	{{- end -}}
+	
+{{ end -}}

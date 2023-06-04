@@ -1,0 +1,10 @@
+
+Participant Data of Conversation ID = {{ .id }}
+Key = Value {{ printf "\n"}} 
+{{range .participants -}}
+{{- if or (eq .purpose "customer") (eq .purpose "external") }}
+{{- range $index, $element := .attributes }}
+{{- $index }} {{- printf "\t" -}} = {{ $element }}
+{{ end -}}
+{{ end -}}
+{{ end -}}

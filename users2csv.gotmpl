@@ -1,0 +1,5 @@
+id, division, department, title, acdAutoAnswer, name, username,  {{ printf "\n"}} 
+{{- range .entities -}}
+{{ .id }}, {{.division.name}}, {{ .department}}, {{.title}}, {{.acdAutoAnswer}}, {{.name}}, {{.username}}
+{{ printf ""}}
+{{- end -}}

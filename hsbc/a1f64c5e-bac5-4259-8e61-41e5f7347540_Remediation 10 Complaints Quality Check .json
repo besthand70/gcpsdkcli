@@ -1,0 +1,820 @@
+{
+  "id": "a1f64c5e-bac5-4259-8e61-41e5f7347540",
+  "name": "Remediation 10% Complaints Quality Check ",
+  "modifiedDate": "2023-05-29T12:44:42.122Z",
+  "published": false,
+  "contextId": "1592b7f5-f5cf-4c6d-a955-a6bda9730495",
+  "questionGroups": [
+    {
+      "id": "8f8a3610-3b92-4e39-8722-a1159b9b69ca",
+      "name": "Identification and Recording Group",
+      "type": "questionGroup",
+      "naEnabled": false,
+      "weight": 100.0,
+      "questions": [
+        {
+          "id": "f5cb93b1-e28e-4534-bb6a-e78f4a60c11b",
+          "text": "Is it a complaint?",
+          "helpText": "Was there an expression of dissatisfaction on the call ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "76c86f37-648d-425f-9058-3c5a0723751a",
+              "text": "Yes",
+              "value": 1
+            },
+            {
+              "id": "6f6b58c2-933b-465c-84a0-8db54cc90df2",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "c340ad3a-07bf-4fc0-b8d8-a54a1fe8b837",
+          "text": "Is the complaint Payment Service Directive 2 (PSD2)? DISP 1.6.2A",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "d08ba5c3-d7b6-4e25-af63-682d303e8bc5",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "52bec6d9-0630-48a2-b745-9fc00f24252d",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "1a42e21e-173a-443d-bdd3-9e0073a8f18c",
+              "text": "N/A",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "711264f7-696a-4b3f-b230-9854cc00877a",
+          "text": "Is it a vulnerable customer? FCA Vulnerable Customers",
+          "helpText": "During the call has been identified that the customer is a vulnerable customer and have appropriate actions been taken as per guidance",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "b5fed685-7811-475a-b472-9e555cc9a1e2",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "286c738e-6fd7-450c-9723-e61f533e9193",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "95efe8fd-8a43-468b-8b7a-57c2d2294308",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "e743d2e2-ddf7-4dc7-8741-b23ce41eeb82",
+              "text": "Learning",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "608c5294-fbcd-4a1c-84fa-f3cfdbec893e",
+          "text": "Was it appropriate for the complaint handler to handle the complaint?",
+          "helpText": "i.e Named in the complaint ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "65bdabb0-949d-4c63-90e6-f9e84615a121",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "87aad070-feac-4e58-9ce7-e915ef308160",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "c7ad00cb-e74a-466c-8f7c-73d8a20f8365",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "34f1f918-60c1-431c-bc9b-d1bfe4d50ab4",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "58e570cd-15fc-419b-a613-3ca12a08a4bf",
+          "text": "The customer's complaint journey was recorded on the complaints system accurately",
+          "helpText": "eg: the complaint details, channel of received, re-open, raised for action ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "660b4183-fb03-45db-bd12-e37107a6357c",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "9d4217a9-b620-4083-9b38-4269da2ddf94",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "f8f1cb37-8e88-4ba3-969b-0056151ab59b",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "fbf647e7-6407-43ea-99b2-31263ca6c99c",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "d81f70e5-b2cb-42f6-b6d1-03ab7edcb4e0",
+          "text": "The customer's complaint records state the correct date of receipt, product group and root cause DISP1.10.2A",
+          "helpText": "Please complete all the relevant sections and choose the correct journey",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "4bc46b74-3438-4716-a019-56fc25adbbfd",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "f3abbbd8-4429-4912-9bd4-52e26f82ccb7",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "e16b8c16-86cd-46b7-81cb-b91234ff4bc8",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "6c783568-f6c2-494c-a81a-9b5ad67ff998",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "a87f8a72-6b65-44f7-a87f-7fd6acf916ca",
+          "text": "If vulnerability is evident and applicable to the customer or complaint case, this was correctly identified and recorded ",
+          "helpText": "eg: Has the customer care needs been updated and PVC guidance followed appropriately",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "155b88b7-033c-4340-8064-602a075493ed",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "6201c1ca-6874-4407-a21f-08dc3e5893ff",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "1d365b83-6ce6-4f36-81c6-3fc47e494f28",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "7d061189-a66b-4150-9221-bc365df607b1",
+              "text": "Learning",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "d9da710e-8e9d-478b-9bba-b9507d15630a",
+          "text": "All communication between the customer and bank/complaint handler was recorded and available to view (electronic, verbal or written)",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "1cdb4705-09f2-4db3-9bf5-5ab279ab6a36",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "9562610f-1d2b-4f36-95d1-42091954ed6f",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "f1df0ffa-556c-42d7-809d-ecb65fc570da",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "00be981c-6d43-406a-81f5-49f669d239c7",
+              "text": "Learning",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "dd2d3909-1252-474b-b008-1cef1660daa8",
+          "text": "The audit trail of the complaint was clear to fully understand the customer journey including delays.  The decision and complaint resolution including any compensation/redress calculation and required remedial action was also detailed.",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "3118fe04-7601-43df-9d61-5f9fd96be751",
+              "text": "Yes",
+              "value": 1
+            },
+            {
+              "id": "dbfbb2f7-115f-4c06-969d-a865d9b820b1",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "5b085817-c8bb-44b5-85a1-b5809933dd68",
+          "text": "The compensation/redress offered to resolve the complaint has been recorded on the correct date and as the correct type?",
+          "helpText": "Have charges been recorded instead of financial redress",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "78aae354-f604-4456-a761-930d5ee3a5ad",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "1c2b9b32-0dc6-4cfe-b250-2f7988daae7e",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "67cda1ea-83b7-44e5-98bf-7e9208968d4f",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "f80aa218-f96a-403b-9882-c73b1a322281",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "2e12f4a6-d46f-4d8a-9c6c-8528428fdebc",
+          "text": "The correct resolution status was recorded and in line with any customer detriment?",
+          "helpText": "eg: Bank error ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "f5ab3dc0-09ea-4203-9313-b21902811096",
+              "text": "Yes",
+              "value": 1
+            },
+            {
+              "id": "1b21ba1f-1293-489d-9629-d5eaf7fe3dfe",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "2aca1792-4e1e-4173-a45e-9778ad9197a1",
+          "text": "The correct total value of compensation/redress was recorded?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "8ac198d3-dd1e-4bd0-b027-d8b579dd60e3",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "104a5987-5d79-4183-899f-cb5592448f6d",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "d9d9a946-f45d-4085-92ed-faa4e30a5f38",
+              "text": "N/A",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "9e4133be-944b-4296-998d-81e8030b6226",
+      "name": "Resolution or Decision ",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "aa0510e2-0d31-4247-9981-154f4e90aad7",
+          "text": "The customer received the right outcome based on a fair investigation addressing all key issues and ensuring no reoccurrence of the same issue",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "677d5e5a-30d8-4774-bfbb-942284e2e9ee",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "e0d676e8-46df-45c4-982f-2e44ef29d3bf",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "39988a52-c96e-409d-9e76-288c284550c3",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "736ad196-ce1e-41da-83cb-8b2e3437dea4",
+          "text": "The compensation/redress is fair and appropriate to the individual circumstances evident in the case.",
+          "helpText": "i.e. putting the customer back to the position they would have been, and considerate of distress or inconvenience caused ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "643e9565-506c-442b-90d3-01b0d1822fe5",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "5126c055-3dab-4107-8a54-40ad3be1977b",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "453e02fd-da84-4641-8499-32ed36781912",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "a531952d-b1a4-4148-948a-916946ec17a3",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "9dcdf837-f764-4596-9191-99b9cec8245b",
+          "text": "The customer's vulnerability where appropriate was taken into consideration in the decision making of the complaint and with the compensation/redress offered",
+          "helpText": "FCA vulnerable customers",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "02266303-3316-40da-97d7-8fc3fdc3139b",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "ad177784-5fee-4e11-88c6-99ef5181a904",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "db5fceeb-990d-444a-9069-6fd06bf94eb7",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "9a6fb6eb-5b98-41d8-9ee6-5a7e84c48872",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "7fd42965-89ad-43f7-a4f3-8533069bd69c",
+      "name": "Investigation",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "284d6c9b-a788-4b6b-bd11-341c84818440",
+          "text": "The complaint handler displayed sufficient understanding of the cause of the complaint for the customer",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "ad6a621a-ecc4-4845-bb58-ea2bd1df3076",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "62c57cf8-1d93-492f-9533-eca156c0bc0c",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "f58c2ee1-27fe-4966-a6ad-809655b84a05",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "cf376ef8-313b-4211-95dc-aaebbdb5cae6",
+          "text": "The complaint handler has understood the impact on the customer and if appropriate the customer's vulnerability taken into account.",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "82a65e65-5fda-48fb-953a-1357688dbaa8",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "253ba172-2d48-4ed6-ae65-f5890517a29b",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "a1a42ca2-805a-44ef-be62-50cb1d043da4",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "7572f71a-aa4c-4103-9cab-eb7e2d20e8fb",
+          "text": "All available information was collected and reviewed, to enable a balanced, fair and impartial outcome for the customer.",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "7795d0df-3cb6-47e5-918b-b9ea980b0b7a",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "36e6101b-6546-492e-9407-3b37f5bea644",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "2b50e3a3-0b47-4ea8-a732-aba3a020e879",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "37364fa1-fb5a-4833-9fb5-b9677cd32203",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "7847235c-27b0-4b7e-9042-343f3933f5c2",
+      "name": "Communication",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "c7e80f46-4401-468c-bcac-54e2eacbf298",
+          "text": "The correct correspondence was sent and on time and included the correct Financial Ombudsman Service (FOS) rights?\n",
+          "helpText": "(e.g. Day 0 – 3 Summary Resolution Communication (SRC), Day 4 onwards or if customer dissatisfied Final Response Letter (FRL), Acknowledgement letters, PSD2, re-iteration) ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "c2042a72-6037-4f6c-94f7-07396431f223",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "c701b3c0-e1c8-4805-8a2c-406cc21389dc",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "618e189e-c41f-4244-814f-cb4432b98d0c",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "c52a6533-4817-4b4e-be6e-adc7b64c904b",
+          "text": "All correspondence was accurate and contained the correct customer details (e.g. complaint details, address, telephone number, salutation, dates/times, customer preferences and reference details)",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "368c271c-61cc-44e0-b127-53ff253ebaf2",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "bfefb6ba-ca4e-4b14-a448-ae56ca37f9a1",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "ac8fb806-726c-4941-b6e0-57dbf75dbda3",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "298f6ec9-4ced-4910-8703-b3fe0148604d",
+          "text": "Resolution communication (i.e. SRC or FRL) clearly explained outcome of the complaint. FRL confirmed details of the investigation, reasons for the decision, action(s) taken and offer of compensation/redress. ",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "3992bded-3828-4066-826a-002c773d5865",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "7ba871d7-5c5c-4673-85b6-18a2f546d9e1",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "aff8e455-a211-42a6-8c99-c505155ccff0",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "228d71a5-a94d-498e-8b79-ac024a70ef71",
+          "text": "All communication (written and verbal) where appropriate was tailored to the individual, displayed empathy and understanding. If applicable, it also took into account vulnerable customer requirements including special means of communication (e.g. braille, specific language request) when responding. ",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "8ab23084-ba38-4641-91ea-9183eb3e8136",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "4df7ad13-6743-4886-8ff6-60f76a33753e",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "593ae14b-5df5-4896-ba42-6e8d78e811c5",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "6fe2c907-4d5d-49e9-8bfc-df4a966eb20f",
+          "text": "Customer was sufficiently kept informed of the progress of their complaint",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "9894809e-3e64-4f20-ab9c-b9148ed6da94",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "d48a51f2-13b2-459a-9241-6376ef2bca23",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "e9cc5cb8-f207-4d64-abdc-796bfcadd869",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "05dd30e5-240f-435d-9299-9c18def699c5",
+      "name": "Remedial Action ",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "2a421698-2b3e-4baa-a7fa-ecd96e8c7585",
+          "text": "Remedial action was completed in full and as promised to the customer (e.g. promised actions completed, redress paid). SOX Control",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "bf27f51c-9846-4a14-ab9b-2ad518e00479",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "4a1f2d7c-5054-4892-a63b-a2b533407ae3",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "3ceef1e0-9254-4f91-b91a-51e2f320c348",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "5f43ae7e-46a6-4211-aa23-2ad26d3af764",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "f578fa9e-e028-4971-9c56-a2a4a3589ef1",
+          "text": "Individual feedback was provided where appropriate to prevent further occurrences",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "62a590a6-cb48-4ab1-a15f-fb7a3c4c6c7e",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "81306c09-7b54-4337-94de-8096f7a894c7",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "27376bbf-4fef-4b67-81bf-f0e990b7c1c0",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "7d7982d0-6f3f-4ae8-b244-147f34688cc9",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "1a6c460e-47f1-4436-a5db-b14a90258ab3",
+          "text": "Actions and redress awards directed by FOS are completed within reasonable timeframes from receipt of the FOS decision. Delays to completing this action informed to FOS and the customer with provision of expected timeframe.",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "46d1346e-7e56-4d04-9855-55dd5ffecbc9",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "f3de7e61-9ef3-4838-ad29-ca04c0498c6f",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "612c15a9-da17-4353-8a0d-9ff05f365396",
+              "text": "N/A",
+              "value": 0
+            },
+            {
+              "id": "85ee2c66-7824-4240-b3cf-62bd8ebbd053",
+              "text": "Learning ",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    }
+  ],
+  "weightMode": "SCALED",
+  "selfUri": "/api/v2/quality/forms/evaluations/a1f64c5e-bac5-4259-8e61-41e5f7347540"
+}

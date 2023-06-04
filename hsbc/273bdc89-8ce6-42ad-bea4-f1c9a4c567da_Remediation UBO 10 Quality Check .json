@@ -1,0 +1,108 @@
+{
+  "id": "273bdc89-8ce6-42ad-bea4-f1c9a4c567da",
+  "name": "Remediation UBO 10% Quality Check ",
+  "modifiedDate": "2023-05-29T12:46:25.608Z",
+  "published": false,
+  "contextId": "1eeee22c-e814-4dd4-a004-65e71d3b1e02",
+  "questionGroups": [
+    {
+      "id": "a1271e37-14ed-41d9-955e-15613636e66f",
+      "name": "UBO Quality ",
+      "type": "questionGroup",
+      "naEnabled": false,
+      "weight": 100.0,
+      "questions": [
+        {
+          "id": "e7345f86-82db-4ab5-80eb-3d836dbd5f1e",
+          "text": "All Information held on CRS AI matches Pocket Guide and DIM's and is easily understandable",
+          "helpText": "Please check that the status is correct as to the outcome on the contact history",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "15a47a39-66cd-4743-89db-034190fcf462",
+              "text": "Pass",
+              "value": 25
+            },
+            {
+              "id": "e09b7e4b-ef23-4830-a1af-22d4c360d161",
+              "text": "Fail",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "8eb1e79d-028c-4ed9-84cd-787c6656fefb",
+          "text": "Has the relevant SMS been sent and sent correctly and updated on the Contact History ",
+          "helpText": "Check customer preferences to see if SMS are able to be sent ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "c906fa15-1ea5-40f7-b975-fd33857ad6dc",
+              "text": "Pass",
+              "value": 25
+            },
+            {
+              "id": "a5634853-7964-44a3-944f-f0e0b100779f",
+              "text": "Fail",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "3b1370a5-3124-4926-b111-4a649a1544ab",
+          "text": "If status has changed to a material change, check CRT for previous review to confirm that it is a material change.",
+          "helpText": "Use CRT Ownership tab",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "8bb69eba-5bc1-4ed3-b401-56741da7a252",
+              "text": "Pass",
+              "value": 25
+            },
+            {
+              "id": "bd130cf9-2bb3-44f9-a9a6-3c96c4d5c27f",
+              "text": "Fail",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "706403c1-2025-498d-89c5-65351411a379",
+          "text": "Check Contact History to confirm all call attempts are noted and reflecting correctly and all calls logged appropriately for a clear audit trail.",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "97a7e897-8eb8-449c-85cd-2b59cc315d41",
+              "text": "Pass",
+              "value": 25
+            },
+            {
+              "id": "fd1f141d-bd81-46e7-9350-b226160238c8",
+              "text": "Fail",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        }
+      ]
+    }
+  ],
+  "weightMode": "SCALED",
+  "selfUri": "/api/v2/quality/forms/evaluations/273bdc89-8ce6-42ad-bea4-f1c9a4c567da"
+}

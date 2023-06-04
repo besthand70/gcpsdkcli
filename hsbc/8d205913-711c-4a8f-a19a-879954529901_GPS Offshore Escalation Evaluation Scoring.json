@@ -1,0 +1,270 @@
+{
+  "id": "8d205913-711c-4a8f-a19a-879954529901",
+  "name": "GPS Offshore Escalation Evaluation Scoring",
+  "modifiedDate": "2023-05-25T10:11:20.935Z",
+  "published": false,
+  "contextId": "be222e90-4dab-4467-96f6-e4d544777bc6",
+  "questionGroups": [
+    {
+      "id": "36b68fd6-561a-4398-8848-baea7b89b1c7",
+      "name": "Information",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 0.0,
+      "manualWeight": true,
+      "questions": [
+        {
+          "id": "8c26362b-c9b0-4952-8141-b14be831494a",
+          "text": "Case ID/Call ID",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": true,
+          "answerOptions": [
+            {
+              "id": "afae2dbc-3fd1-416d-826b-0ea43a18e6a4",
+              "text": ".",
+              "value": 0
+            },
+            {
+              "id": "1e6be726-a6d4-41fc-bf3c-5e79f5663295",
+              "text": "Please Provide Case ID/ Call ID in the comments",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "c8eee80a-f471-4d3e-ac3e-cc61b35a34a7",
+      "name": "Escalation",
+      "type": "questionGroup",
+      "naEnabled": false,
+      "weight": 100.0,
+      "questions": [
+        {
+          "id": "260773b9-e32b-4dad-b758-33f5f9681a99",
+          "text": "Did the TM acknowledge customer complaint/escalation within agreed timelines?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "2abdd3eb-9ddb-4ef3-8eea-b7999b3e6d6f",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "6824cbda-62c2-493a-8387-2d1b835290ac",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "911e1f46-7577-493f-9324-3b0835dc577b",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "d27f5d25-8214-491e-853b-023865dd7147",
+          "text": "Did the TM perform initial RCA to identify the issue?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "f4883a3d-2b4f-4fa7-9515-13ad1886f1f4",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "1b198b03-4b9c-4ac1-9c4b-67099941e23c",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "77d806ae-29f5-4fe1-93bf-3a9c807db27c",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "96d51076-d847-460f-8784-725d1dec9b91",
+          "text": "Contacted right department/ team to resolve the escalation?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "02117e5a-52b1-4b63-ac61-ac02897ed05c",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "20ac22c2-2caa-4e7e-90ee-6a8d5a3b22bc",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "12e35800-bdef-46cb-92ac-ce59f031088e",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "edda5971-0062-4383-8859-36d40158f4c4",
+          "text": "Right resolution provided",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "1372dc46-dd55-4869-82b9-25d9f5b66d26",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "f668db82-4755-4a39-848d-9fbe0d3303a4",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "ef94e4af-a2cd-401d-88de-1781aa408205",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "6e74d2b8-c6b6-41dc-9e9f-2f8afff54fd6",
+          "text": "Escalation handled in a timely manner",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "7ec89197-26a5-4210-a3a5-808290205855",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "1129f87c-2ca3-49c7-9ce8-b9e9800c5039",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "7ca37986-c53d-4797-a480-70b262de6efe",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "1ec29844-601a-4894-9f40-64e0e7f98ece",
+          "text": "Escalation resolution captured into system",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "21dfde47-0a73-4e3c-9c86-7b33b9cea6cd",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "146342a3-b137-4acc-ad37-d4ae49bef155",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "6f89f6fc-64e4-4165-95c3-0ec669b18a5a",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "21a510c9-b9d5-4c18-bd03-88ee03d2e9cd",
+          "text": "Thorough RCA conducted/Feedback relayed to staff/ concerned parties",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "d2be4fc2-44c9-42f8-96ba-fb4a503abb6a",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "0a328c9a-5808-4b94-b007-6f1c8ada4720",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "9190dabc-64d2-4af7-be7e-893e69c6cbed",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "451a225c-6c17-46f6-94d7-932c92853098",
+          "text": "Client's acknowledgment on resolution",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": true,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "d82be749-4535-48ba-b8fe-5decb96e5b21",
+              "text": "Met",
+              "value": 1
+            },
+            {
+              "id": "4a90bd46-f945-45b2-84ca-1c025934ada3",
+              "text": "Not Met",
+              "value": 0
+            },
+            {
+              "id": "50fb4bac-2c94-4072-b984-888c11cc8687",
+              "text": "Others",
+              "value": 1
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    }
+  ],
+  "weightMode": "SCALED",
+  "selfUri": "/api/v2/quality/forms/evaluations/8d205913-711c-4a8f-a19a-879954529901"
+}

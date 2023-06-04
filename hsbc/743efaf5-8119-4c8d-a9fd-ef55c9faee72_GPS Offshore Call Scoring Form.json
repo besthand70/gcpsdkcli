@@ -1,0 +1,395 @@
+{
+  "id": "743efaf5-8119-4c8d-a9fd-ef55c9faee72",
+  "name": "GPS Offshore Call Scoring Form",
+  "modifiedDate": "2023-05-25T10:28:20.075Z",
+  "published": false,
+  "contextId": "8ca62b67-a0d5-4105-bcc0-68ffd2af2873",
+  "questionGroups": [
+    {
+      "id": "02281dd3-66a8-41b1-824e-e6760d5ab2f6",
+      "name": "Risk and Compliance",
+      "type": "questionGroup",
+      "naEnabled": false,
+      "weight": 0.0,
+      "manualWeight": true,
+      "questions": [
+        {
+          "id": "9fb0fc37-4c73-4265-85c4-7f262986680f",
+          "text": "ID&V Completed:\n\nThe CSS needs to follow the ID&V SOP to ensure the enquirer is a legitimate, authorized point of contact for related account(s) before providing any information or assistance.",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "cd720a22-7171-45ab-9a9f-5536ebfd5c71",
+              "text": "Hit",
+              "value": 1
+            },
+            {
+              "id": "fde8a465-7368-44be-b3f5-8cf4df7ecf74",
+              "text": "Miss",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        },
+        {
+          "id": "2e54c3ee-9add-4bc4-bc63-5de1a0e4a732",
+          "text": "Complaint Captured:\n\nThe CSS captures the client dissatisfaction if the client uses complaint language and tone such as, \"I am not happy\" or \" This is unacceptable\", and appropriately log the complaint in line with complaint SOP, \n",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "400c5fbd-fb5e-459d-8701-df247450c645",
+              "text": "Hit",
+              "value": 1
+            },
+            {
+              "id": "8e1017f1-3a4e-4b41-aa9b-09d29f5add2b",
+              "text": "Miss",
+              "value": 0
+            }
+          ],
+          "isKill": true,
+          "isCritical": true
+        }
+      ]
+    },
+    {
+      "id": "eea8f530-5eee-4464-a18e-2d77d34476a8",
+      "name": "Customer Experience",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "af26bebf-50df-4497-bc3c-9c18f1e31776",
+          "text": "Call Opening and Call closing:\n\nAppropriate opening and 'Appropriate closing line was used\n",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "d917623d-5797-4af0-9782-2a745529c97c",
+              "text": "Met",
+              "value": 5
+            },
+            {
+              "id": "294ff096-5412-4db6-b5bd-d417e0dde960",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "35fe0590-263b-4e43-8361-63990cd84b3b",
+          "text": "First Action:\n\nCSS should try to provide first call resolution where applicable",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "4567c973-ffba-43aa-85af-5cf9523d8315",
+              "text": "Met",
+              "value": 10
+            },
+            {
+              "id": "957e3b3e-9b11-463f-b734-bb0234828e8b",
+              "text": "Partially Met",
+              "value": 5
+            },
+            {
+              "id": "7744aded-38b9-441c-93c6-e1d01a178442",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "7a60b93d-b8d2-4109-9f7c-828f0aea2c6a",
+          "text": "Ownership:\n\n- CSS should own the client experience and act as the central point of contact for the client\n- Willing to help attitude (Displayed during the call, further assistance offered)",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "30ad3408-d93c-4f3b-99be-99cc0fb60ff3",
+              "text": "Met",
+              "value": 15
+            },
+            {
+              "id": "f4cee185-f01a-44d8-a0ed-fc26018eb179",
+              "text": "Partially Met",
+              "value": 10
+            },
+            {
+              "id": "b91ea7a5-c58c-4444-8d25-cd3b82974db9",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "911ccdb3-1985-4882-9076-39ca7122bb1c",
+          "text": "Adequate Resolution:\n\nAll FCR queries raised by client needs to be accurately addressed. For queries could not be resolved in the same call, provide an estimated response date to well manage customer expectation.",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "31a7abae-71bd-4250-ae0e-0b1086940464",
+              "text": "Met",
+              "value": 10
+            },
+            {
+              "id": "081623f0-c9f6-4334-89d2-21d98d1d0ef9",
+              "text": "Partially Met",
+              "value": 5
+            },
+            {
+              "id": "73ea8aa8-1b63-492e-9539-9169b9e037a5",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "1733aed3-f111-42b6-ade4-75a852aa768f",
+          "text": "Call Control:\n\n- Handled client's query efficiently and with confidence.\n- Effortless interaction with clients\n- CSS asked right questions and was able to comprehend the client's query\n- Adhered to hold and transfer procedure\n- Dead air avoidance",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "e55e7248-7965-4a63-aacc-4df2812ed792",
+              "text": "Met",
+              "value": 10
+            },
+            {
+              "id": "8da79f2b-b5dc-4730-bc21-17008d0e871c",
+              "text": "Partially Met",
+              "value": 5
+            },
+            {
+              "id": "b1cc7cd5-d070-4183-a31b-b75a2b476c74",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "397826d3-66d3-4b05-ab61-f0cbe69605d0",
+          "text": "Client Sensitivity:\n\n- CSS taking ownership in escalating the issues to the right department/team in a timely manner\n- Timely action taken keeping client sensitivity\n- CSS knows when, how and where to escalate when applicable",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "2555c767-ddcb-423e-b8a9-124d5371bb63",
+              "text": "Met",
+              "value": 5
+            },
+            {
+              "id": "63a72b1a-f89b-42ff-a435-f105e4cebbbc",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "b63dcf9c-4071-4e25-92a1-b2c8e77eead1",
+          "text": "Communication: \n\n- Personalized the call by using client's name\n- Use correct grammar, wording and sentence structure\n- Appropriate Pace, Tone, Energy on Calls\n- Demonstrated active listening\n- Use right acknowledgments when required\n- Summarizing the call",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "6ca7bc0f-6149-4825-b6ea-1dbc49d9a8e9",
+              "text": "Met",
+              "value": 10
+            },
+            {
+              "id": "01097d4a-dc5f-4a3a-ae92-ed62321648af",
+              "text": "Partially Met",
+              "value": 5
+            },
+            {
+              "id": "ba9b9ac2-e69a-41fa-b52e-67cc0bb00150",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "11794034-93b6-4e7a-bf7e-3513aa84bb34",
+      "name": "Process, Product and Procedure",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "c6e2a0a1-17b6-44f5-967f-95c2264e1b8a",
+          "text": "Procedure Adherence:\n\n- Provide the steps or guidance to client clearly and in line with procedures, \n- Appropriate trouble-shooting path to identify the issue\n",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "67f2c714-7d7d-4d71-a9dd-4d3983abd2db",
+              "text": "Met",
+              "value": 10
+            },
+            {
+              "id": "f4b96b7b-a58c-46f8-b41d-3bad39fda392",
+              "text": "Partially Met",
+              "value": 5
+            },
+            {
+              "id": "1903b5f5-ba32-4e96-93bb-f864dc24a09e",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "14727011-a221-40b3-98da-ebd38f270089",
+          "text": "Progress Updates on Systems:\n\nUpdation of relevant fields on BOLT or any other application such as comments, pending with etc are accurate \n",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "2e4b149a-1804-4f15-8347-9a23daf4d918",
+              "text": "Met",
+              "value": 5
+            },
+            {
+              "id": "163cf37d-9d3e-4add-b6bb-575c0a4868b2",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "6bd19589-67f9-4a8f-b656-e864bb07dcf1",
+          "text": "Product and Process Knowledge:\n\nCSS provided product or servicing information to enhance client's relationship. \n",
+          "helpText": "0 - Not met: CSS failed to provide right product information. Lacked product and process knowledge.  5 - Met : CSS provided accurate information on product and service. ",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "d9f31297-0eb6-4adb-9613-5ea612361227",
+              "text": "Met",
+              "value": 5
+            },
+            {
+              "id": "22965872-07e2-4b6f-be4b-beacd5be5978",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        },
+        {
+          "id": "f942247f-6306-4a5a-bd8b-cf064ac7c63c",
+          "text": "Case Closure:\n\nCases are closed at the appropriate time when ALL inquires have been addressed \nCases are closed accurately to encourage client participation in a survey when applicable\n",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "39254b1b-bfa1-4c8a-a898-431296a67f52",
+              "text": "Met",
+              "value": 5
+            },
+            {
+              "id": "a20ab105-fb1f-4c8f-84d6-3b91db73a3bd",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "193098e9-2196-4657-a1d7-ce55f5d14bfc",
+      "name": "Self Service Adoption",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "6af05954-d99b-4f09-bb6d-062a72cd2014",
+          "text": "Advocate:\n\nDid the CSS provide alternate solution of processing request via HSBCnet for the query type?\nDid the CSS educate Clients on  HSBCnet?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "c72d99a6-04ed-41e0-94aa-8c07c18edd69",
+              "text": "Met",
+              "value": 10
+            },
+            {
+              "id": "41081ad4-5e6d-4486-9b9e-4dbd433a3a39",
+              "text": "Not Met",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    }
+  ],
+  "weightMode": "SCALED",
+  "selfUri": "/api/v2/quality/forms/evaluations/743efaf5-8119-4c8d-a9fd-ef55c9faee72"
+}

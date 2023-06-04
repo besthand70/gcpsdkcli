@@ -1,0 +1,12 @@
+role,allowConditions,domain,entity,action
+{{- range $index, $element := . -}}
+    {{$rolename := .name}}
+	{{- range .permissionPolicies -}}
+		{{$permissionSummary := print $rolename ",(" .allowConditions ")," .domain "," .entityName }}
+		{{- range $actionElement := .actionSet }}
+{{$permissionSummary}},{{ $actionElement }}
+		{{- end -}}
+		
+	{{- end -}}
+	
+{{ end -}}

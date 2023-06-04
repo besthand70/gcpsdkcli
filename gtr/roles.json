@@ -1,0 +1,3751 @@
+{
+  "entities": [
+    {
+      "id": "e85b1bba-a4a2-42bb-ab71-463c16b9f10e",
+      "name": "admin",
+      "description": "Organization Administrator",
+      "defaultRoleId": "admin",
+      "permissions": [
+        "content_management_user",
+        "admin",
+        "employee",
+        "content_management_admin"
+      ],
+      "permissionPolicies": [
+        {
+          "domain": "conversation",
+          "entityName": "participant",
+          "actionSet": ["attributesview"],
+          "allowConditions": false
+        },
+        {
+          "domain": "authorization",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integrations",
+          "entityName": "action",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "webchat",
+          "entityName": "deployment",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "plugin",
+          "actionSet": ["add", "call", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "emergencyGroup",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "presence",
+          "entityName": "presenceDefinition",
+          "actionSet": ["add", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "schedule",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "telephony",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "geolocation",
+          "entityName": "settings",
+          "actionSet": ["edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gdpr",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "presence",
+          "entityName": "userPrimarySource",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "actions",
+          "actionSet": ["add", "view", "edit", "delete", "execute"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "contact",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "chat",
+          "entityName": "file",
+          "actionSet": ["delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "webDeployments",
+          "entityName": "configuration",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "server",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dataRetention",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "attributes",
+          "entityName": "attribute",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "settings",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "publisher",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "externalEntity",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "presence",
+          "entityName": "userPresence",
+          "actionSet": ["edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "webDeployments",
+          "entityName": "deployment",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "documents",
+          "entityName": "audit",
+          "actionSet": ["search"],
+          "allowConditions": false
+        },
+        {
+          "domain": "limits",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "agentUI",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "chat",
+          "entityName": "setting",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "audits",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "externalOrganization",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "skill",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "serverFile",
+          "actionSet": ["add", "request", "view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "voicemail",
+          "entityName": "groupPolicy",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "widgets",
+          "entityName": "deployment",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "presence",
+          "entityName": "settings",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "adhocForecast",
+          "actionSet": ["add", "view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integrations",
+          "entityName": "integration",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "identity",
+          "actionSet": ["promote", "merge"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "adhocModel",
+          "actionSet": ["add", "view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "schedulingrequest",
+          "actionSet": ["add", "view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "billing",
+          "entityName": "subscription",
+          "actionSet": ["add", "view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "voicebots",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "cobrowse",
+          "entityName": "deployment",
+          "actionSet": ["manage"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "callRoute",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "scheduleGroup",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "knowledge",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "knowledgeAggregate",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "notification",
+          "actionSet": ["add", "view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "oauth",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "pluginType",
+          "actionSet": ["add", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "presence",
+          "entityName": "source",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "customFields",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "directory",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 15,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/e85b1bba-a4a2-42bb-ab71-463c16b9f10e"
+    },
+    {
+      "id": "0f95e26d-eb99-4017-a122-df08aaf4dc59",
+      "name": "Callflow Data Service Role",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "integrations",
+          "entityName": "integration",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 1,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/0f95e26d-eb99-4017-a122-df08aaf4dc59"
+    },
+    {
+      "id": "ee1ab960-6413-4c87-a1e0-641a09ae75dd",
+      "name": "AI Agent",
+      "description": "Provides agent access to the AI services",
+      "defaultRoleId": "aiAgent",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "journey",
+          "entityName": "customer",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "event",
+          "actionSet": ["add", "view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "outcome",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "actionmap",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "settings",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "journeyAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "report",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "actiontarget",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "visit",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "segment",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 4,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/ee1ab960-6413-4c87-a1e0-641a09ae75dd"
+    },
+    {
+      "id": "0bd4a5b1-d2d9-48fc-8ea8-00af580ed896",
+      "name": "Co-browse Agent",
+      "description": "Role for Co-browse agent functions",
+      "defaultRoleId": "cobrowseAgent",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "cobrowse",
+          "entityName": "session",
+          "actionSet": ["view", "activate"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 5,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/0bd4a5b1-d2d9-48fc-8ea8-00af580ed896"
+    },
+    {
+      "id": "ff10a042-60c9-4a99-867a-ed7459bbab48",
+      "name": "Digital Agent",
+      "description": "Role for digital agent functions",
+      "defaultRoleId": "digitalOnlyUser",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "ui",
+          "entityName": "digitalDesktop",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["restore"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "conversation",
+          "actionSet": ["associate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "conference",
+          "actionSet": ["add"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "event",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["add", "view", "delete"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "responses",
+          "entityName": "library",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardStatus",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardPerformance",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "directory",
+          "entityName": "user",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentActivity",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recordingSegment",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Conversation.agents",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "quality",
+          "entityName": "survey",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dataExport",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "acdvideo",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "scripter",
+          "entityName": "publishedScript",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "media",
+          "actionSet": ["record"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "agent",
+          "actionSet": ["onqueue"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "queue",
+          "actionSet": ["view", "search", "join"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "wrapupCode",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "message",
+          "actionSet": ["view", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Conversation.mediaType",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "CHAT",
+                    "type": "SCALAR"
+                  },
+                  {
+                    "value": "EMAIL",
+                    "type": "SCALAR"
+                  },
+                  {
+                    "value": "MESSAGE",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "coaching",
+          "entityName": "appointment",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gamification",
+          "entityName": "leaderboard",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentAdherence",
+          "actionSet": ["notify"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "recording",
+          "actionSet": ["pause"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "screenRecording",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "tabConfigurations",
+          "actionSet": ["view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentQueueActivity",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "agentUI",
+          "entityName": "*",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluationForm",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "webmessaging",
+          "actionSet": ["view", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "surveyForm",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gamification",
+          "entityName": "scorecard",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "eventtype",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "agentConversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "sessiontype",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentTimeOffRequest",
+          "actionSet": ["submit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentShiftTradeRequest",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "learning",
+          "entityName": "assignment",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["view", "editAgentSignoff"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "conversation",
+          "entityName": "email",
+          "actionSet": ["forward", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentSchedule",
+          "actionSet": ["view", "utilizeLoadBased"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardEvaluations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userObservation",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "responses",
+          "entityName": "response",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 0,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/ff10a042-60c9-4a99-867a-ed7459bbab48"
+    },
+    {
+      "id": "b74168d3-73e2-4de8-a3b7-2d11ff2d41f0",
+      "name": "External Contacts Read Only",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "externalContacts",
+          "entityName": "contact",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "externalOrganization",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 3,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/b74168d3-73e2-4de8-a3b7-2d11ff2d41f0"
+    },
+    {
+      "id": "9f1ab472-0d47-48e8-800c-4d32c9730e0d",
+      "name": "Architect User",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "architect",
+          "entityName": "flowOutcome",
+          "actionSet": ["search"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "datatableRow",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "datatable",
+          "actionSet": ["search"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 2,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/9f1ab472-0d47-48e8-800c-4d32c9730e0d"
+    },
+    {
+      "id": "dc9446ec-c3aa-4801-8e98-4d7cfa6dd3ed",
+      "name": "integrationServer",
+      "description": "Integration Server role allows Bridge Connectors to communicate with PureCloud. Do not edit or remove.",
+      "defaultRoleId": "integrationServer",
+      "permissions": ["admin"],
+      "permissionPolicies": [
+        {
+          "domain": "directory",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integration",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integration",
+          "entityName": "unifiedCommunications",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "directory",
+          "entityName": "user",
+          "actionSet": ["*"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 12,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/dc9446ec-c3aa-4801-8e98-4d7cfa6dd3ed"
+    },
+    {
+      "id": "359afcbd-973e-48e5-a8ea-bc9234aadac3",
+      "name": "Developer",
+      "description": "Developer of Public API client applications",
+      "defaultRoleId": "developer",
+      "permissions": ["integration_config_administration"],
+      "permissionPolicies": [
+        {
+          "domain": "messaging",
+          "entityName": "whatsappIntegration",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integrations",
+          "entityName": "action",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "messaging",
+          "entityName": "integration",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integrations",
+          "entityName": "integration",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integration",
+          "entityName": "botconnector",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "authorization",
+          "entityName": "role",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "oauth",
+          "entityName": "client",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 12,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/359afcbd-973e-48e5-a8ea-bc9234aadac3"
+    },
+    {
+      "id": "ec614c36-f7b2-4367-8480-4a957eed4159",
+      "name": "Callback create",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "conversation",
+          "entityName": "callback",
+          "actionSet": ["create"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 8,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/ec614c36-f7b2-4367-8480-4a957eed4159"
+    },
+    {
+      "id": "7e21163b-ad79-4a1f-a384-44dbd586caac",
+      "name": "Co browse",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "acdvideo",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "acdscreenshare",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "cobrowse",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 4,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/7e21163b-ad79-4a1f-a384-44dbd586caac"
+    },
+    {
+      "id": "a5fda2bc-a5d7-444e-916e-b5f100aa7ffc",
+      "name": "Agent",
+      "description": "Role for basic agent functions",
+      "defaultRoleId": "agent",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "conversation",
+          "entityName": "email",
+          "actionSet": ["forward", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gamification",
+          "entityName": "scorecard",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "acdvideo",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "contact",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "agent",
+          "actionSet": ["onqueue"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Conversation.mediaType",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "CHAT",
+                    "type": "SCALAR"
+                  },
+                  {
+                    "value": "EMAIL",
+                    "type": "SCALAR"
+                  },
+                  {
+                    "value": "MESSAGE",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "scripter",
+          "entityName": "publishedScript",
+          "actionSet": ["view", "search"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["editAgentSignoff"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentSchedule",
+          "actionSet": ["view", "utilizeLoadBased"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["restore"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dataExport",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "conference",
+          "actionSet": ["add"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardEvaluations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gamification",
+          "entityName": "leaderboard",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "responses",
+          "entityName": "response",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "message",
+          "actionSet": ["view", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardPerformance",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["add"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentQueueActivity",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "suggestionFeedback",
+          "actionSet": ["add"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "coaching",
+          "entityName": "appointment",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "sessiontype",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardStatus",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "conversation",
+          "actionSet": ["associate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "media",
+          "actionSet": ["record"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "surveyForm",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "tabConfigurations",
+          "actionSet": ["view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "screenRecording",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "webmessaging",
+          "actionSet": ["view", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "directory",
+          "entityName": "user",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentAdherence",
+          "actionSet": ["notify"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "webchat",
+          "actionSet": ["accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentTimeOffRequest",
+          "actionSet": ["submit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["delete"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userObservation",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "conversation",
+          "entityName": "recording",
+          "actionSet": ["pause"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "wrapupCode",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "call",
+          "actionSet": ["add", "record", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "learning",
+          "entityName": "assignment",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "responses",
+          "entityName": "library",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentActivity",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "callback",
+          "actionSet": ["create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentShiftTradeRequest",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluationForm",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "suggestion",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "event",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "eventtype",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recordingSegment",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Conversation.agents",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "analytics",
+          "entityName": "agentConversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "queue",
+          "actionSet": ["view", "search", "join"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "survey",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 1,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/a5fda2bc-a5d7-444e-916e-b5f100aa7ffc"
+    },
+    {
+      "id": "9835a394-a1c5-4863-a9ff-b78e45daf66f",
+      "name": "employee",
+      "description": "Directory - Employee",
+      "defaultRoleId": "employee",
+      "permissions": [
+        "location_contributor",
+        "content_management_user",
+        "employee"
+      ],
+      "permissionPolicies": [
+        {
+          "domain": "presence",
+          "entityName": "presenceDefinition",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "video",
+          "entityName": "video",
+          "actionSet": ["access"],
+          "allowConditions": false
+        },
+        {
+          "domain": "pushnotification",
+          "entityName": "registration",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "directory",
+          "entityName": "location",
+          "actionSet": ["edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integration",
+          "entityName": "unifiedCommunications",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "contact",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "externalOrganization",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "mobile",
+          "entityName": "collaborate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "attributes",
+          "entityName": "attribute",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "myOrganization",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "mobile",
+          "entityName": "communicate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "chat",
+          "entityName": "chat",
+          "actionSet": ["access"],
+          "allowConditions": false
+        },
+        {
+          "domain": "documents",
+          "entityName": "audit",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "chat",
+          "entityName": "giphy",
+          "actionSet": ["access"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 40,
+      "base": true,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/9835a394-a1c5-4863-a9ff-b78e45daf66f"
+    },
+    {
+      "id": "dd3c25d7-91a7-4930-a736-661ac7f96598",
+      "name": "Communicate - User",
+      "description": "Communicate role for placing calls",
+      "defaultRoleId": "unifiedCommunication",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "conversation",
+          "entityName": "call",
+          "actionSet": ["add", "record"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "conference",
+          "actionSet": ["add"],
+          "allowConditions": false
+        },
+        {
+          "domain": "voicemail",
+          "entityName": "voicemail",
+          "actionSet": ["receive"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 20,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/dd3c25d7-91a7-4930-a736-661ac7f96598"
+    },
+    {
+      "id": "991ebceb-5ec6-42b2-bebc-b0fcc237501b",
+      "name": "Email Ninja",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "email",
+          "actionSet": ["pull", "assign"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "wrapupCode",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "participant",
+          "actionSet": ["wrapup"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardEvaluations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integrations",
+          "entityName": "integration",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "communication",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "email",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "queue",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 1,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/991ebceb-5ec6-42b2-bebc-b0fcc237501b"
+    },
+    {
+      "id": "2734dd58-7986-42d5-b26c-e59d929e01e1",
+      "name": "Embeddable Framework User",
+      "description": "integration.customEmbeddableFramework.*",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "integration",
+          "entityName": "customEmbeddableFramework",
+          "actionSet": ["*"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 7,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/2734dd58-7986-42d5-b26c-e59d929e01e1"
+    },
+    {
+      "id": "83b7d80e-940b-477d-ad51-aefe82d6c22c",
+      "name": "Engage Supervisor",
+      "description": "Engage role for supervisory functions",
+      "defaultRoleId": "engageSupervisor",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "gamification",
+          "entityName": "leaderboard",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "coaching",
+          "entityName": "scheduleSlot",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorScheduledCallbacks",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorAgentDetails",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "learning",
+          "entityName": "scheduleSlot",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "keyPerformanceIndicator",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "evaluationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "participant",
+          "actionSet": ["wrapup"],
+          "allowConditions": false
+        },
+        {
+          "domain": "coaching",
+          "entityName": "appointmentConversation",
+          "actionSet": ["add"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "conversation",
+          "actionSet": ["associate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "queue",
+          "actionSet": ["view", "search", "edit", "join"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "agent",
+          "actionSet": ["onqueue"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorDashboard",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["download", "restore", "editRetention", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "predictor",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "flowObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "email",
+          "actionSet": ["manage"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "conference",
+          "actionSet": ["add"],
+          "allowConditions": false
+        },
+        {
+          "domain": "learning",
+          "entityName": "module",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorDnisPerformance",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "alerting",
+          "entityName": "rule",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "reporting",
+          "entityName": "interactions",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "directory",
+          "entityName": "user",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "alerting",
+          "entityName": "alert",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "OR",
+            "terms": [
+              {
+                "variableName": "Conversation.mediaType",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "CHAT",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Conversation.mediaType",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "EMAIL",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Conversation.mediaType",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "MESSAGE",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dataRetention",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "reporting",
+          "entityName": "acd",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "flowAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentQueueActivity",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "voicemail",
+          "entityName": "acdVoicemail",
+          "actionSet": ["view", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "utilization",
+          "actionSet": ["view", "manage"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "predictorModel",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "communication",
+          "actionSet": ["disconnect", "view", "transfer", "target"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "coaching",
+          "entityName": "appointmentStatus",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "message",
+          "actionSet": ["view", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "reporting",
+          "entityName": "status",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "insightConfigurations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorPerformance",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "call",
+          "actionSet": ["add", "barge", "record", "monitor", "coach", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "skill",
+          "actionSet": ["assign"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dashboardConfigurations",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "mobile",
+          "entityName": "supervisor",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gamification",
+          "entityName": "scorecard",
+          "actionSet": ["view", "viewAll"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorStatusControl",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dataExport",
+          "actionSet": ["add", "view", "edit", "publish", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "viewConfigurations",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationProperties",
+          "actionSet": ["index"],
+          "allowConditions": false
+        },
+        {
+          "domain": "acdvideo",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recordingSegment",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "webmessaging",
+          "actionSet": ["view", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "webchat",
+          "actionSet": ["accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "reporting",
+          "entityName": "outbound",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "tabConfigurations",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "predictorModelFeature",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "cobrowse",
+          "entityName": "session",
+          "actionSet": ["monitor", "replay"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorQueueDetails",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "reporting",
+          "entityName": "quality",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "coaching",
+          "entityName": "appointment",
+          "actionSet": ["add", "view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "supervisorWrapUpPerformance",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "learning",
+          "entityName": "assignment",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "encryptionKey",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "wrapupCode",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "email",
+          "actionSet": ["accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "speechAndTextAnalyticsAggregates",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 11,
+      "roleNeedsUpdate": false,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/83b7d80e-940b-477d-ad51-aefe82d6c22c"
+    },
+    {
+      "id": "b1111345-d875-49cb-9fd3-dd6e9bff6718",
+      "name": "Email Ninja_Agent",
+      "permissions": [],
+      "permissionPolicies": [],
+      "userCount": 0,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/b1111345-d875-49cb-9fd3-dd6e9bff6718"
+    },
+    {
+      "id": "1e9031ef-3df7-44f7-8a37-095eee1744dd",
+      "name": "Genesys Cloud Voice Admin",
+      "description": "Genesys Cloud Voice role for purchasing numbers and viewing number inventory",
+      "defaultRoleId": "voiceAdmin",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "purecloudvoice",
+          "entityName": "number",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "telephony",
+          "entityName": "sites",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 3,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/1e9031ef-3df7-44f7-8a37-095eee1744dd"
+    },
+    {
+      "id": "ebaafb97-55de-4e6b-bb7c-452f03f32b10",
+      "name": "Email Ninja_Admin",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "conversation",
+          "entityName": "communication",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardEvaluations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "email",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "email",
+          "actionSet": ["pull", "assign"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "queue",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "participant",
+          "actionSet": ["wrapup"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "wrapupCode",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 1,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/ebaafb97-55de-4e6b-bb7c-452f03f32b10"
+    },
+    {
+      "id": "ad0b2006-d177-4399-aeb4-10584a10c439",
+      "name": "Knowledge",
+      "description": "Custom role to use knowledge features",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "uploads",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "knowledge",
+          "entityName": "*",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "knowledgeAggregate",
+          "actionSet": ["*"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 1,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/ad0b2006-d177-4399-aeb4-10584a10c439"
+    },
+    {
+      "id": "a6199f41-b3ac-4982-a514-b39881679df8",
+      "name": "Engage User",
+      "description": "Engage role for basic agent functions",
+      "defaultRoleId": "engage",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "quality",
+          "entityName": "survey",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "conference",
+          "actionSet": ["add"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "screenRecording",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentQueueActivity",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["add"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentShiftTradeRequest",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["editAgentSignoff"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "integration",
+          "entityName": "microsoftTeams",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gamification",
+          "entityName": "leaderboard",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "coaching",
+          "entityName": "appointment",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "surveyForm",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardEvaluations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "integration",
+          "entityName": "microsoftTeamsEmbeddedClient",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "tabConfigurations",
+          "actionSet": ["view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "event",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "externalOrganization",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "scripter",
+          "entityName": "publishedScript",
+          "actionSet": ["view", "search"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dataExport",
+          "actionSet": ["add", "view", "edit", "delete"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentTimeOffRequest",
+          "actionSet": ["submit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "dashboardConfigurations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "learning",
+          "entityName": "assignment",
+          "actionSet": ["participate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "agent",
+          "actionSet": ["onqueue"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "call",
+          "actionSet": ["add", "record", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "webchat",
+          "actionSet": ["accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardPerformance",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "message",
+          "actionSet": ["view", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "customFields",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "identity",
+          "actionSet": ["promote", "merge"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "email",
+          "actionSet": ["forward", "create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "responses",
+          "entityName": "response",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "recording",
+          "actionSet": ["pause"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "media",
+          "actionSet": ["record"],
+          "allowConditions": false
+        },
+        {
+          "domain": "acdvideo",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "userObservation",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Query.userId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "journey",
+          "entityName": "sessiontype",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardStatus",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentSchedule",
+          "actionSet": ["view", "utilizeLoadBased"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "eventtype",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "queue",
+          "actionSet": ["view", "search", "join"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "contact",
+          "actionSet": ["add", "view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "wfm",
+          "entityName": "agentAdherence",
+          "actionSet": ["notify"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "wrapupCode",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluation",
+          "actionSet": ["view"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "quality",
+          "entityName": "evaluationForm",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "directory",
+          "entityName": "user",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "annotation",
+          "actionSet": ["delete"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        },
+        {
+          "domain": "conversation",
+          "entityName": "callback",
+          "actionSet": ["create", "accept"],
+          "allowConditions": false
+        },
+        {
+          "domain": "ui",
+          "entityName": "agentActivity",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "externalContacts",
+          "entityName": "conversation",
+          "actionSet": ["associate"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "segment",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "journey",
+          "entityName": "session",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "gamification",
+          "entityName": "scorecard",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "responses",
+          "entityName": "library",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "recording",
+          "entityName": "recording",
+          "actionSet": ["restore"],
+          "allowConditions": false,
+          "resourceConditionNode": {
+            "operands": [],
+            "conjunction": "AND",
+            "terms": [
+              {
+                "variableName": "Evaluation.agentId",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "User.id",
+                    "type": "VARIABLE"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.state",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "FINISHED",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              },
+              {
+                "variableName": "Evaluation.isReleased",
+                "operator": "EQ",
+                "operands": [
+                  {
+                    "value": "true",
+                    "type": "SCALAR"
+                  }
+                ],
+                "terms": []
+              }
+            ]
+          }
+        }
+      ],
+      "userCount": 21,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/a6199f41-b3ac-4982-a514-b39881679df8"
+    },
+    {
+      "id": "72dd7a64-cdc8-43e0-8850-991aac9da03c",
+      "name": "Agent Alerts",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "alerting",
+          "entityName": "alert",
+          "actionSet": ["view", "edit"],
+          "allowConditions": false
+        },
+        {
+          "domain": "alerting",
+          "entityName": "rule",
+          "actionSet": ["add", "view"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 4,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/72dd7a64-cdc8-43e0-8850-991aac9da03c"
+    },
+    {
+      "id": "39a79bca-b20f-48dd-a475-006ba7f6d6f9",
+      "name": "Email Ninja_Supervisor",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "ui",
+          "entityName": "agentDashboardEvaluations",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "wrapupCode",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "participant",
+          "actionSet": ["wrapup"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationDetail",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "conversationAggregate",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "queue",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "communication",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "conversation",
+          "entityName": "email",
+          "actionSet": ["pull", "assign"],
+          "allowConditions": false
+        },
+        {
+          "domain": "analytics",
+          "entityName": "queueObservation",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "routing",
+          "entityName": "email",
+          "actionSet": ["*"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 1,
+      "base": false,
+      "default": false,
+      "selfUri": "/api/v2/authorization/roles/39a79bca-b20f-48dd-a475-006ba7f6d6f9"
+    },
+    {
+      "id": "a50d73dd-d818-47d5-b235-9cc6eaab67bd",
+      "name": "Communicate - Admin",
+      "description": "Communicate Administrator",
+      "defaultRoleId": "unifiedCommunicationAdmin",
+      "permissions": [],
+      "permissionPolicies": [
+        {
+          "domain": "telephony",
+          "entityName": "phone",
+          "actionSet": ["assign"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "flow",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "ui",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "bridge",
+          "entityName": "actions",
+          "actionSet": ["view"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "dependencyTracking",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "userPrompt",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "systemPrompt",
+          "actionSet": ["*"],
+          "allowConditions": false
+        },
+        {
+          "domain": "architect",
+          "entityName": "vxmlOperation",
+          "actionSet": ["*"],
+          "allowConditions": false
+        }
+      ],
+      "userCount": 11,
+      "roleNeedsUpdate": false,
+      "base": false,
+      "default": true,
+      "selfUri": "/api/v2/authorization/roles/a50d73dd-d818-47d5-b235-9cc6eaab67bd"
+    }
+  ],
+  "pageSize": 25,
+  "pageNumber": 1,
+  "total": 47,
+  "nextUri": "/api/v2/authorization/roles?pageSize=25&pageNumber=2",
+  "lastUri": "/api/v2/authorization/roles?pageSize=25&pageNumber=2",
+  "firstUri": "/api/v2/authorization/roles?pageSize=25&pageNumber=1",
+  "selfUri": "/api/v2/authorization/roles?pageSize=25&pageNumber=1",
+  "pageCount": 2
+}

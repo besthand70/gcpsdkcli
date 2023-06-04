@@ -1,0 +1,4 @@
+name, description, defaultRoleId, userCount, base, default {{ printf "\n"}} 
+{{- range $index, $element := . -}}
+{{.name}}, {{ .description}}, {{.defaultRoleId}}, {{.userCount}}, {{.base}}, {{.default}}
+{{ end -}}

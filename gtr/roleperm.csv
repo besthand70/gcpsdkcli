@@ -1,0 +1,1027 @@
+role,allowConditions,domain,entity,action
+Architect User,(false),architect,*,*
+Architect User,(false),architect,datatable,search
+Architect User,(false),architect,datatableRow,add
+Architect User,(false),architect,datatableRow,view
+Architect User,(false),architect,datatableRow,edit
+Architect User,(false),architect,datatableRow,delete
+Architect User,(false),architect,flowOutcome,search
+Agent,(false),conversation,recording,pause
+Agent,(false),conversation,message,view
+Agent,(false),conversation,message,create
+Agent,(false),conversation,message,accept
+Agent,(false),gamification,leaderboard,view
+Agent,(false),conversation,call,add
+Agent,(false),conversation,call,record
+Agent,(false),conversation,call,accept
+Agent,(false),analytics,dataExport,add
+Agent,(false),analytics,dataExport,view
+Agent,(false),analytics,dataExport,edit
+Agent,(false),analytics,dataExport,delete
+Agent,(false),quality,evaluationForm,view
+Agent,(false),recording,recording,view
+Agent,(false),quality,evaluation,participate
+Agent,(false),analytics,conversationDetail,view
+Agent,(false),conversation,conference,add
+Agent,(false),ui,agentDashboardStatus,view
+Agent,(false),analytics,queueObservation,view
+Agent,(false),responses,response,view
+Agent,(false),analytics,userAggregate,view
+Agent,(false),conversation,suggestionFeedback,add
+Agent,(false),journey,event,view
+Agent,(false),scripter,publishedScript,view
+Agent,(false),scripter,publishedScript,search
+Agent,(false),ui,agentDashboardPerformance,view
+Agent,(false),gamification,scorecard,view
+Agent,(false),routing,agent,onqueue
+Agent,(false),responses,library,view
+Agent,(false),externalContacts,conversation,associate
+Agent,(false),recording,annotation,view
+Agent,(false),quality,evaluation,editAgentSignoff
+Agent,(false),recording,recordingSegment,view
+Agent,(false),ui,agentQueueActivity,view
+Agent,(false),quality,evaluation,view
+Agent,(false),journey,sessiontype,view
+Agent,(false),recording,screenRecording,participate
+Agent,(false),wfm,agentAdherence,notify
+Agent,(false),conversation,webmessaging,view
+Agent,(false),conversation,webmessaging,create
+Agent,(false),conversation,webmessaging,accept
+Agent,(false),wfm,agentShiftTradeRequest,participate
+Agent,(false),ui,agentDashboardEvaluations,view
+Agent,(false),recording,annotation,delete
+Agent,(false),coaching,appointment,participate
+Agent,(false),quality,survey,participate
+Agent,(false),conversation,email,forward
+Agent,(false),conversation,email,create
+Agent,(false),conversation,email,accept
+Agent,(false),wfm,agentSchedule,view
+Agent,(false),wfm,agentSchedule,utilizeLoadBased
+Agent,(false),analytics,tabConfigurations,view
+Agent,(false),analytics,tabConfigurations,edit
+Agent,(false),analytics,tabConfigurations,delete
+Agent,(false),learning,assignment,participate
+Agent,(false),recording,media,record
+Agent,(false),recording,recording,restore
+Agent,(false),journey,session,view
+Agent,(false),analytics,agentConversationDetail,view
+Agent,(false),analytics,userObservation,view
+Agent,(false),conversation,suggestion,view
+Agent,(false),conversation,callback,create
+Agent,(false),conversation,callback,accept
+Agent,(false),journey,eventtype,view
+Agent,(false),directory,user,view
+Agent,(false),ui,agentActivity,view
+Agent,(false),conversation,webchat,accept
+Agent,(false),analytics,conversationAggregate,view
+Agent,(false),routing,wrapupCode,view
+Agent,(false),externalContacts,contact,add
+Agent,(false),externalContacts,contact,view
+Agent,(false),externalContacts,contact,edit
+Agent,(false),externalContacts,contact,delete
+Agent,(false),wfm,agentTimeOffRequest,submit
+Agent,(false),recording,annotation,add
+Agent,(false),acdvideo,session,view
+Agent,(false),routing,queue,view
+Agent,(false),routing,queue,search
+Agent,(false),routing,queue,join
+Agent,(false),quality,surveyForm,view
+Agent Alerts,(false),alerting,alert,view
+Agent Alerts,(false),alerting,alert,edit
+Agent Alerts,(false),alerting,rule,add
+Agent Alerts,(false),alerting,rule,view
+Callback create,(false),conversation,callback,create
+AI Agent,(false),analytics,journeyAggregate,view
+AI Agent,(false),journey,settings,view
+AI Agent,(false),journey,visit,*
+AI Agent,(false),journey,customer,*
+AI Agent,(false),journey,actionmap,view
+AI Agent,(false),journey,segment,view
+AI Agent,(false),journey,session,view
+AI Agent,(false),journey,actiontarget,view
+AI Agent,(false),journey,report,view
+AI Agent,(false),journey,outcome,view
+AI Agent,(false),journey,event,add
+AI Agent,(false),journey,event,view
+AI Agent,(false),journey,event,edit
+Co browse,(false),acdscreenshare,*,*
+Co browse,(false),acdvideo,*,*
+Co browse,(false),cobrowse,*,*
+Callflow Data Service Role,(false),integrations,integration,view
+admin,(false),externalContacts,contact,*
+admin,(false),telephony,*,*
+admin,(false),limits,*,*
+admin,(false),infrastructureascode,accelerator,view
+admin,(false),routing,scheduleGroup,*
+admin,(false),bridge,plugin,add
+admin,(false),bridge,plugin,call
+admin,(false),bridge,plugin,view
+admin,(false),bridge,plugin,edit
+admin,(false),bridge,plugin,delete
+admin,(false),presence,source,add
+admin,(false),presence,source,view
+admin,(false),presence,source,edit
+admin,(false),presence,source,delete
+admin,(false),conversation,participant,attributesview
+admin,(false),routing,callRoute,*
+admin,(false),infrastructureascode,job,add
+admin,(false),infrastructureascode,job,view
+admin,(false),routing,emergencyGroup,*
+admin,(false),externalContacts,customFields,*
+admin,(false),documents,audit,search
+admin,(false),presence,userPresence,edit
+admin,(false),presence,settings,view
+admin,(false),presence,settings,edit
+admin,(false),presence,presenceDefinition,add
+admin,(false),presence,presenceDefinition,edit
+admin,(false),presence,presenceDefinition,delete
+admin,(false),authorization,*,*
+admin,(false),bridge,serverFile,add
+admin,(false),bridge,serverFile,request
+admin,(false),bridge,serverFile,view
+admin,(false),audits,*,*
+admin,(false),bridge,notification,add
+admin,(false),bridge,notification,view
+admin,(false),chat,setting,view
+admin,(false),chat,setting,edit
+admin,(false),bridge,publisher,view
+admin,(false),externalContacts,identity,promote
+admin,(false),externalContacts,identity,merge
+admin,(false),bridge,actions,add
+admin,(false),bridge,actions,view
+admin,(false),bridge,actions,edit
+admin,(false),bridge,actions,delete
+admin,(false),bridge,actions,execute
+admin,(false),integrations,action,*
+admin,(false),analytics,queueObservation,view
+admin,(false),agentUI,*,*
+admin,(false),externalContacts,externalEntity,*
+admin,(false),voicebots,*,*
+admin,(false),webDeployments,configuration,*
+admin,(false),billing,subscription,add
+admin,(false),billing,subscription,view
+admin,(false),webchat,deployment,*
+admin,(false),wfm,schedulingrequest,add
+admin,(false),wfm,schedulingrequest,view
+admin,(false),webDeployments,deployment,*
+admin,(false),presence,userPrimarySource,view
+admin,(false),presence,userPrimarySource,edit
+admin,(false),geolocation,settings,edit
+admin,(false),routing,schedule,*
+admin,(false),bridge,server,add
+admin,(false),bridge,server,view
+admin,(false),bridge,server,edit
+admin,(false),bridge,server,delete
+admin,(false),directory,*,*
+admin,(false),routing,skill,*
+admin,(false),voicemail,groupPolicy,view
+admin,(false),voicemail,groupPolicy,edit
+admin,(false),analytics,userAggregate,view
+admin,(false),oauth,*,*
+admin,(false),gdpr,*,*
+admin,(false),widgets,deployment,*
+admin,(false),attributes,attribute,add
+admin,(false),attributes,attribute,view
+admin,(false),attributes,attribute,edit
+admin,(false),attributes,attribute,delete
+admin,(false),integrations,integration,add
+admin,(false),integrations,integration,view
+admin,(false),integrations,integration,edit
+admin,(false),integrations,integration,delete
+admin,(false),bridge,pluginType,add
+admin,(false),bridge,pluginType,edit
+admin,(false),chat,file,delete
+admin,(false),externalContacts,externalOrganization,*
+admin,(false),wfm,adhocModel,add
+admin,(false),wfm,adhocModel,view
+admin,(false),conversation,settings,view
+admin,(false),conversation,settings,edit
+admin,(false),analytics,conversationDetail,view
+admin,(false),wfm,adhocForecast,add
+admin,(false),wfm,adhocForecast,view
+admin,(false),cobrowse,deployment,manage
+admin,(false),analytics,dataRetention,*
+Genesys Cloud Voice Admin,(false),telephony,sites,view
+Genesys Cloud Voice Admin,(false),purecloudvoice,number,add
+Genesys Cloud Voice Admin,(false),purecloudvoice,number,view
+Genesys Cloud Voice Admin,(false),purecloudvoice,number,edit
+Genesys Cloud Voice Admin,(false),purecloudvoice,number,delete
+integrationServer,(false),integration,unifiedCommunications,view
+integrationServer,(false),directory,*,*
+integrationServer,(false),directory,user,*
+integrationServer,(false),integration,*,*
+Communicate - Admin,(false),architect,systemPrompt,*
+Communicate - Admin,(false),architect,ui,*
+Communicate - Admin,(false),telephony,phone,assign
+Communicate - Admin,(false),architect,flow,*
+Communicate - Admin,(false),architect,userPrompt,*
+Communicate - Admin,(false),architect,vxmlOperation,*
+Communicate - Admin,(false),bridge,actions,view
+Communicate - Admin,(false),architect,dependencyTracking,*
+Embeddable Framework User,(false),integration,customEmbeddableFramework,*
+Communicate - User,(false),voicemail,voicemail,receive
+Communicate - User,(false),conversation,call,add
+Communicate - User,(false),conversation,call,record
+Communicate - User,(false),conversation,conference,add
+Knowledge,(false),knowledge,*,*
+Knowledge,(false),analytics,knowledgeAggregate,*
+Knowledge,(false),uploads,*,*
+External Contacts Read Only,(false),externalContacts,externalOrganization,view
+External Contacts Read Only,(false),externalContacts,contact,view
+Engage Supervisor,(false),analytics,queueObservation,view
+Engage Supervisor,(false),coaching,appointment,add
+Engage Supervisor,(false),coaching,appointment,view
+Engage Supervisor,(false),reporting,interactions,view
+Engage Supervisor,(false),ui,supervisorQueueDetails,view
+Engage Supervisor,(false),conversation,conference,add
+Engage Supervisor,(false),analytics,flowObservation,view
+Engage Supervisor,(false),learning,module,view
+Engage Supervisor,(false),conversation,webchat,accept
+Engage Supervisor,(false),learning,assignment,*
+Engage Supervisor,(false),mobile,supervisor,view
+Engage Supervisor,(false),ui,supervisorStatusControl,view
+Engage Supervisor,(false),analytics,userAggregate,view
+Engage Supervisor,(false),routing,wrapupCode,view
+Engage Supervisor,(false),analytics,tabConfigurations,*
+Engage Supervisor,(false),conversation,communication,disconnect
+Engage Supervisor,(false),conversation,communication,view
+Engage Supervisor,(false),conversation,communication,transfer
+Engage Supervisor,(false),conversation,communication,target
+Engage Supervisor,(false),directory,user,view
+Engage Supervisor,(false),analytics,dashboardConfigurations,*
+Engage Supervisor,(false),conversation,call,add
+Engage Supervisor,(false),conversation,call,barge
+Engage Supervisor,(false),conversation,call,record
+Engage Supervisor,(false),conversation,call,monitor
+Engage Supervisor,(false),conversation,call,coach
+Engage Supervisor,(false),conversation,call,accept
+Engage Supervisor,(false),routing,queue,view
+Engage Supervisor,(false),routing,queue,search
+Engage Supervisor,(false),routing,queue,edit
+Engage Supervisor,(false),routing,queue,join
+Engage Supervisor,(false),coaching,scheduleSlot,view
+Engage Supervisor,(false),ui,supervisorScheduledCallbacks,view
+Engage Supervisor,(false),conversation,email,accept
+Engage Supervisor,(false),ui,agentQueueActivity,view
+Engage Supervisor,(false),routing,email,manage
+Engage Supervisor,(false),analytics,userObservation,view
+Engage Supervisor,(false),routing,predictorModel,view
+Engage Supervisor,(false),reporting,acd,view
+Engage Supervisor,(false),alerting,rule,add
+Engage Supervisor,(false),alerting,rule,view
+Engage Supervisor,(false),alerting,rule,edit
+Engage Supervisor,(false),alerting,rule,delete
+Engage Supervisor,(false),analytics,flowAggregate,view
+Engage Supervisor,(false),routing,predictor,add
+Engage Supervisor,(false),routing,predictor,view
+Engage Supervisor,(false),routing,predictor,edit
+Engage Supervisor,(false),routing,predictor,delete
+Engage Supervisor,(false),reporting,status,view
+Engage Supervisor,(false),voicemail,acdVoicemail,view
+Engage Supervisor,(false),voicemail,acdVoicemail,delete
+Engage Supervisor,(false),cobrowse,session,monitor
+Engage Supervisor,(false),cobrowse,session,replay
+Engage Supervisor,(false),conversation,webmessaging,view
+Engage Supervisor,(false),conversation,webmessaging,accept
+Engage Supervisor,(false),recording,recording,download
+Engage Supervisor,(false),recording,recording,restore
+Engage Supervisor,(false),recording,recording,editRetention
+Engage Supervisor,(false),recording,recording,delete
+Engage Supervisor,(false),ui,supervisorPerformance,view
+Engage Supervisor,(false),analytics,conversationProperties,index
+Engage Supervisor,(false),analytics,dataExport,add
+Engage Supervisor,(false),analytics,dataExport,view
+Engage Supervisor,(false),analytics,dataExport,edit
+Engage Supervisor,(false),analytics,dataExport,publish
+Engage Supervisor,(false),analytics,dataExport,delete
+Engage Supervisor,(false),analytics,insightConfigurations,view
+Engage Supervisor,(false),ui,supervisorAgentDetails,view
+Engage Supervisor,(false),ui,supervisorDnisPerformance,view
+Engage Supervisor,(false),alerting,alert,add
+Engage Supervisor,(false),alerting,alert,view
+Engage Supervisor,(false),alerting,alert,edit
+Engage Supervisor,(false),alerting,alert,delete
+Engage Supervisor,(false),conversation,message,view
+Engage Supervisor,(false),conversation,message,accept
+Engage Supervisor,(false),gamification,leaderboard,*
+Engage Supervisor,(false),learning,scheduleSlot,view
+Engage Supervisor,(false),analytics,dataRetention,view
+Engage Supervisor,(false),externalContacts,conversation,associate
+Engage Supervisor,(false),reporting,quality,view
+Engage Supervisor,(false),routing,predictorModelFeature,view
+Engage Supervisor,(false),analytics,viewConfigurations,*
+Engage Supervisor,(false),routing,utilization,view
+Engage Supervisor,(false),routing,utilization,manage
+Engage Supervisor,(false),coaching,appointmentStatus,view
+Engage Supervisor,(false),analytics,userDetail,view
+Engage Supervisor,(false),routing,agent,onqueue
+Engage Supervisor,(false),recording,recordingSegment,view
+Engage Supervisor,(false),recording,annotation,add
+Engage Supervisor,(false),recording,annotation,view
+Engage Supervisor,(false),recording,annotation,edit
+Engage Supervisor,(false),recording,annotation,delete
+Engage Supervisor,(false),recording,recording,view
+Engage Supervisor,(false),analytics,evaluationAggregate,view
+Engage Supervisor,(false),gamification,scorecard,view
+Engage Supervisor,(false),gamification,scorecard,viewAll
+Engage Supervisor,(false),coaching,appointmentConversation,add
+Engage Supervisor,(false),analytics,speechAndTextAnalyticsAggregates,view
+Engage Supervisor,(false),reporting,outbound,view
+Engage Supervisor,(false),routing,keyPerformanceIndicator,add
+Engage Supervisor,(false),routing,keyPerformanceIndicator,view
+Engage Supervisor,(false),routing,keyPerformanceIndicator,edit
+Engage Supervisor,(false),routing,keyPerformanceIndicator,delete
+Engage Supervisor,(false),ui,supervisorWrapUpPerformance,view
+Engage Supervisor,(false),acdvideo,session,view
+Engage Supervisor,(false),recording,encryptionKey,view
+Engage Supervisor,(false),recording,encryptionKey,edit
+Engage Supervisor,(false),ui,supervisorDashboard,view
+Engage Supervisor,(false),analytics,conversationAggregate,view
+Engage Supervisor,(false),analytics,conversationDetail,view
+Engage Supervisor,(false),routing,skill,assign
+Engage Supervisor,(false),conversation,participant,wrapup
+employee,(false),video,video,access
+employee,(false),presence,presenceDefinition,view
+employee,(false),ui,myOrganization,view
+employee,(false),documents,audit,view
+employee,(false),directory,location,edit
+employee,(false),integration,unifiedCommunications,view
+employee,(false),chat,chat,access
+employee,(false),mobile,collaborate,view
+employee,(false),pushnotification,registration,*
+employee,(false),mobile,communicate,view
+employee,(false),externalContacts,externalOrganization,*
+employee,(false),attributes,attribute,view
+employee,(false),externalContacts,contact,*
+employee,(false),chat,giphy,access
+Digital Agent,(false),learning,assignment,participate
+Digital Agent,(false),wfm,agentShiftTradeRequest,participate
+Digital Agent,(false),directory,user,view
+Digital Agent,(false),conversation,email,forward
+Digital Agent,(false),conversation,email,create
+Digital Agent,(false),conversation,email,accept
+Digital Agent,(false),recording,recordingSegment,view
+Digital Agent,(false),journey,event,view
+Digital Agent,(false),wfm,agentSchedule,view
+Digital Agent,(false),wfm,agentSchedule,utilizeLoadBased
+Digital Agent,(false),journey,eventtype,view
+Digital Agent,(false),agentUI,*,view
+Digital Agent,(false),responses,library,view
+Digital Agent,(false),gamification,scorecard,view
+Digital Agent,(false),gamification,leaderboard,view
+Digital Agent,(false),recording,annotation,add
+Digital Agent,(false),recording,annotation,view
+Digital Agent,(false),recording,annotation,delete
+Digital Agent,(false),wfm,agentAdherence,notify
+Digital Agent,(false),ui,agentDashboardEvaluations,view
+Digital Agent,(false),ui,agentQueueActivity,view
+Digital Agent,(false),routing,agent,onqueue
+Digital Agent,(false),coaching,appointment,participate
+Digital Agent,(false),analytics,conversationAggregate,view
+Digital Agent,(false),acdvideo,session,view
+Digital Agent,(false),analytics,conversationDetail,view
+Digital Agent,(false),quality,evaluation,view
+Digital Agent,(false),quality,evaluation,editAgentSignoff
+Digital Agent,(false),journey,session,view
+Digital Agent,(false),conversation,conference,add
+Digital Agent,(false),ui,agentDashboardStatus,view
+Digital Agent,(false),conversation,message,view
+Digital Agent,(false),conversation,message,create
+Digital Agent,(false),conversation,message,accept
+Digital Agent,(false),routing,queue,view
+Digital Agent,(false),routing,queue,search
+Digital Agent,(false),routing,queue,join
+Digital Agent,(false),ui,digitalDesktop,view
+Digital Agent,(false),analytics,userAggregate,view
+Digital Agent,(false),analytics,tabConfigurations,view
+Digital Agent,(false),analytics,tabConfigurations,edit
+Digital Agent,(false),analytics,tabConfigurations,delete
+Digital Agent,(false),analytics,agentConversationDetail,view
+Digital Agent,(false),quality,evaluation,participate
+Digital Agent,(false),analytics,queueObservation,view
+Digital Agent,(false),conversation,recording,pause
+Digital Agent,(false),quality,surveyForm,view
+Digital Agent,(false),analytics,dataExport,add
+Digital Agent,(false),analytics,dataExport,view
+Digital Agent,(false),analytics,dataExport,edit
+Digital Agent,(false),analytics,dataExport,delete
+Digital Agent,(false),journey,sessiontype,view
+Digital Agent,(false),analytics,userObservation,view
+Digital Agent,(false),quality,evaluationForm,view
+Digital Agent,(false),externalContacts,conversation,associate
+Digital Agent,(false),responses,response,view
+Digital Agent,(false),conversation,webmessaging,view
+Digital Agent,(false),conversation,webmessaging,create
+Digital Agent,(false),conversation,webmessaging,accept
+Digital Agent,(false),scripter,publishedScript,view
+Digital Agent,(false),recording,screenRecording,participate
+Digital Agent,(false),recording,media,record
+Digital Agent,(false),recording,recording,restore
+Digital Agent,(false),ui,agentDashboardPerformance,view
+Digital Agent,(false),quality,survey,participate
+Digital Agent,(false),wfm,agentTimeOffRequest,submit
+Digital Agent,(false),recording,recording,view
+Digital Agent,(false),ui,agentActivity,view
+Digital Agent,(false),routing,wrapupCode,view
+Email Ninja_Supervisor,(false),analytics,queueObservation,view
+Email Ninja_Supervisor,(false),conversation,participant,wrapup
+Email Ninja_Supervisor,(false),conversation,communication,*
+Email Ninja_Supervisor,(false),analytics,conversationDetail,view
+Email Ninja_Supervisor,(false),ui,agentDashboardEvaluations,view
+Email Ninja_Supervisor,(false),analytics,conversationAggregate,view
+Email Ninja_Supervisor,(false),conversation,email,pull
+Email Ninja_Supervisor,(false),conversation,email,assign
+Email Ninja_Supervisor,(false),routing,queue,*
+Email Ninja_Supervisor,(false),routing,email,*
+Email Ninja_Supervisor,(false),routing,wrapupCode,view
+Email Ninja,(false),analytics,conversationDetail,view
+Email Ninja,(false),ui,agentDashboardEvaluations,view
+Email Ninja,(false),analytics,userDetail,view
+Email Ninja,(false),conversation,participant,wrapup
+Email Ninja,(false),conversation,communication,*
+Email Ninja,(false),integrations,integration,view
+Email Ninja,(false),analytics,queueObservation,view
+Email Ninja,(false),routing,wrapupCode,view
+Email Ninja,(false),routing,email,*
+Email Ninja,(false),routing,queue,*
+Email Ninja,(false),conversation,email,pull
+Email Ninja,(false),conversation,email,assign
+Email Ninja,(false),analytics,conversationAggregate,view
+Co-browse Agent,(false),cobrowse,session,view
+Co-browse Agent,(false),cobrowse,session,activate
+Email Ninja_Admin,(false),routing,queue,*
+Email Ninja_Admin,(false),analytics,queueObservation,view
+Email Ninja_Admin,(false),routing,email,*
+Email Ninja_Admin,(false),analytics,conversationDetail,view
+Email Ninja_Admin,(false),analytics,conversationAggregate,view
+Email Ninja_Admin,(false),conversation,email,pull
+Email Ninja_Admin,(false),conversation,email,assign
+Email Ninja_Admin,(false),ui,agentDashboardEvaluations,view
+Email Ninja_Admin,(false),conversation,participant,wrapup
+Email Ninja_Admin,(false),routing,wrapupCode,view
+Email Ninja_Admin,(false),conversation,communication,*
+Engage User,(false),recording,annotation,add
+Engage User,(false),quality,survey,participate
+Engage User,(false),gamification,leaderboard,view
+Engage User,(false),learning,assignment,participate
+Engage User,(false),analytics,dataExport,add
+Engage User,(false),analytics,dataExport,view
+Engage User,(false),analytics,dataExport,edit
+Engage User,(false),analytics,dataExport,delete
+Engage User,(false),routing,wrapupCode,view
+Engage User,(false),conversation,email,forward
+Engage User,(false),conversation,email,create
+Engage User,(false),conversation,email,accept
+Engage User,(false),conversation,webchat,accept
+Engage User,(false),integration,microsoftTeamsEmbeddedClient,*
+Engage User,(false),routing,agent,onqueue
+Engage User,(false),ui,agentDashboardStatus,view
+Engage User,(false),journey,sessiontype,view
+Engage User,(false),externalContacts,externalOrganization,view
+Engage User,(false),journey,segment,view
+Engage User,(false),journey,segment,edit
+Engage User,(false),externalContacts,customFields,view
+Engage User,(false),conversation,message,view
+Engage User,(false),conversation,message,create
+Engage User,(false),conversation,message,accept
+Engage User,(false),directory,user,view
+Engage User,(false),responses,response,view
+Engage User,(false),ui,agentDashboardEvaluations,view
+Engage User,(false),recording,media,record
+Engage User,(false),analytics,userObservation,view
+Engage User,(false),journey,session,view
+Engage User,(false),wfm,agentShiftTradeRequest,participate
+Engage User,(false),scripter,publishedScript,view
+Engage User,(false),scripter,publishedScript,search
+Engage User,(false),quality,evaluation,editAgentSignoff
+Engage User,(false),routing,queue,view
+Engage User,(false),routing,queue,search
+Engage User,(false),routing,queue,join
+Engage User,(false),journey,eventtype,view
+Engage User,(false),recording,annotation,delete
+Engage User,(false),quality,evaluationForm,view
+Engage User,(false),conversation,call,add
+Engage User,(false),conversation,call,record
+Engage User,(false),conversation,call,accept
+Engage User,(false),analytics,conversationDetail,view
+Engage User,(false),wfm,agentTimeOffRequest,submit
+Engage User,(false),analytics,tabConfigurations,view
+Engage User,(false),analytics,tabConfigurations,edit
+Engage User,(false),analytics,tabConfigurations,delete
+Engage User,(false),analytics,dashboardConfigurations,view
+Engage User,(false),recording,annotation,view
+Engage User,(false),responses,library,view
+Engage User,(false),ui,agentDashboardPerformance,view
+Engage User,(false),conversation,callback,create
+Engage User,(false),conversation,callback,accept
+Engage User,(false),wfm,agentAdherence,notify
+Engage User,(false),analytics,queueObservation,view
+Engage User,(false),recording,recording,view
+Engage User,(false),recording,recording,restore
+Engage User,(false),gamification,scorecard,view
+Engage User,(false),quality,surveyForm,view
+Engage User,(false),journey,event,view
+Engage User,(false),conversation,conference,add
+Engage User,(false),wfm,agentSchedule,view
+Engage User,(false),wfm,agentSchedule,utilizeLoadBased
+Engage User,(false),coaching,appointment,participate
+Engage User,(false),externalContacts,conversation,associate
+Engage User,(false),ui,agentActivity,view
+Engage User,(false),acdvideo,session,view
+Engage User,(false),integration,microsoftTeams,*
+Engage User,(false),recording,screenRecording,participate
+Engage User,(false),externalContacts,identity,promote
+Engage User,(false),externalContacts,identity,merge
+Engage User,(false),externalContacts,contact,add
+Engage User,(false),externalContacts,contact,view
+Engage User,(false),externalContacts,contact,edit
+Engage User,(false),quality,evaluation,view
+Engage User,(false),ui,agentQueueActivity,view
+Engage User,(false),quality,evaluation,participate
+Engage User,(false),externalContacts,session,view
+Engage User,(false),conversation,recording,pause
+Engage User,(false),analytics,userAggregate,view
+Engage User,(false),analytics,conversationAggregate,view
+Developer,(false),oauth,client,add
+Developer,(false),oauth,client,view
+Developer,(false),oauth,client,edit
+Developer,(false),oauth,client,delete
+Developer,(false),integrations,integration,*
+Developer,(false),authorization,role,view
+Developer,(false),messaging,integration,*
+Developer,(false),messaging,whatsappIntegration,*
+Developer,(false),integration,botconnector,*
+Developer,(false),integrations,action,*
+Open Messaging Gateway,(false),integrations,integration,view
+Open Messaging Gateway,(false),messaging,integration,*
+Open Messaging Gateway,(false),conversation,message,*
+Open Messaging Gateway,(false),routing,message,*
+Outbound Admin,(false),analytics,dataExport,add
+Outbound Admin,(false),analytics,dataExport,view
+Outbound Admin,(false),analytics,dataExport,edit
+Outbound Admin,(false),analytics,dataExport,delete
+Outbound Admin,(false),reporting,outbound,view
+Outbound Admin,(false),scripter,publishedScript,view
+Outbound Admin,(false),scripter,publishedScript,search
+Outbound Admin,(false),outbound,*,*
+Outbound Admin,(false),analytics,conversationAggregate,view
+Outbound Admin,(false),architect,dependencyTracking,view
+Outbound Admin,(false),architect,ui,view
+Outbound Admin,(false),architect,flow,search
+Outbound Admin,(false),architect,flow,view
+Outbound Admin,(false),telephony,sites,view
+Outbound Admin,(false),architect,userPrompt,view
+Outbound Admin,(false),conversation,call,barge
+Outbound Admin,(false),conversation,call,monitor
+Outbound Admin,(false),conversation,call,coach
+Outbound Admin,(false),routing,queue,view
+Outbound Admin,(false),routing,queue,search
+Outbound Admin,(false),routing,queue,join
+Outbound Admin,(false),routing,wrapupCode,view
+Outbound Admin,(false),conversation,callback,create
+Outbound Admin,(false),architect,systemPrompt,view
+Outbound Admin,(false),conversation,participant,wrapup
+Outbound Admin,(false),conversation,communication,disconnect
+Outbound Admin,(false),conversation,communication,view
+Outbound Admin,(false),conversation,communication,transfer
+Outbound Admin,(false),conversation,communication,target
+Master Admin,(false),analytics,dataRetention,view
+Master Admin,(false),analytics,dataRetention,edit
+Master Admin,(false),reporting,*,*
+Master Admin,(false),messaging,facebookIntegration,*
+Master Admin,(false),recording,media,record
+Master Admin,(false),sms,phoneNumber,*
+Master Admin,(false),analytics,tabConfigurations,*
+Master Admin,(false),recording,retentionPolicy,add
+Master Admin,(false),recording,retentionPolicy,view
+Master Admin,(false),recording,retentionPolicy,edit
+Master Admin,(false),recording,retentionPolicy,delete
+Master Admin,(false),learning,rule,*
+Master Admin,(false),responseAssets,asset,*
+Master Admin,(false),sso,provider,add
+Master Admin,(false),sso,provider,view
+Master Admin,(false),sso,provider,edit
+Master Admin,(false),sso,provider,delete
+Master Admin,(false),presence,userPrimarySource,view
+Master Admin,(false),presence,userPrimarySource,edit
+Master Admin,(false),architect,*,*
+Master Admin,(false),recording,screenRecording,download
+Master Admin,(false),recording,screenRecording,view
+Master Admin,(false),recording,screenRecording,participate
+Master Admin,(false),recording,screenRecording,restore
+Master Admin,(false),recording,screenRecording,stop
+Master Admin,(false),recording,screenRecording,editRetention
+Master Admin,(false),messaging,whatsappIntegration,*
+Master Admin,(false),scripter,*,*
+Master Admin,(false),routing,message,*
+Master Admin,(false),externalContacts,conversation,associate
+Master Admin,(false),bridge,actions,view
+Master Admin,(false),analytics,insightConfigurations,*
+Master Admin,(false),analytics,conversationDetail,view
+Master Admin,(false),analytics,botAggregate,view
+Master Admin,(false),messaging,twitterIntegration,*
+Master Admin,(false),learning,assignment,*
+Master Admin,(false),analytics,flowAggregate,view
+Master Admin,(false),messaging,whatsAppIntegration,*
+Master Admin,(false),integrations,*,*
+Master Admin,(false),responses,*,*
+Master Admin,(false),recording,recordingSegment,view
+Master Admin,(false),wfm,*,*
+Master Admin,(false),audits,interactionDetails,view
+Master Admin,(false),analytics,surveyAggregate,view
+Master Admin,(false),recording,settings,editScreenRecordings
+Master Admin,(false),routing,*,*
+Master Admin,(false),messaging,message,*
+Master Admin,(false),recording,encryptionKey,view
+Master Admin,(false),recording,encryptionKey,edit
+Master Admin,(false),coaching,*,*
+Master Admin,(false),authorization,*,*
+Master Admin,(false),recording,recording,download
+Master Admin,(false),recording,recording,view
+Master Admin,(false),recording,recording,restore
+Master Admin,(false),recording,recording,editRetention
+Master Admin,(false),recording,recording,delete
+Master Admin,(false),speechAndTextAnalytics,program,*
+Master Admin,(false),learning,module,*
+Master Admin,(false),speechAndTextAnalytics,topic,*
+Master Admin,(false),messaging,conversationInstagramIntegration,*
+Master Admin,(false),journey,*,*
+Master Admin,(false),gamification,scorecard,view
+Master Admin,(false),gamification,scorecard,viewAll
+Master Admin,(false),presence,source,add
+Master Admin,(false),presence,source,view
+Master Admin,(false),presence,source,edit
+Master Admin,(false),presence,source,delete
+Master Admin,(false),conversation,*,*
+Master Admin,(false),recording,deletionProtection,apply
+Master Admin,(false),recording,deletionProtection,revoke
+Master Admin,(false),outbound,*,*
+Master Admin,(false),messaging,integration,*
+Master Admin,(false),recording,job,add
+Master Admin,(false),recording,job,view
+Master Admin,(false),recording,job,edit
+Master Admin,(false),recording,job,delete
+Master Admin,(false),voicemail,acdVoicemail,view
+Master Admin,(false),voicemail,acdVoicemail,delete
+Master Admin,(false),analytics,conversationAggregate,view
+Master Admin,(false),analytics,dataExport,*
+Master Admin,(false),analytics,journeyAggregate,view
+Master Admin,(false),gdpr,*,*
+Master Admin,(false),speechAndTextAnalytics,feedback,*
+Master Admin,(false),analytics,viewConfigurations,*
+Master Admin,(false),messaging,sms,*
+Master Admin,(false),quality,*,*
+Master Admin,(false),speechAndTextAnalytics,settings,*
+Master Admin,(false),analytics,dashboardConfigurations,*
+Master Admin,(false),messaging,lineIntegration,*
+Master Admin,(false),analytics,evaluationAggregate,view
+Master Admin,(false),learning,coverart,*
+Master Admin,(false),presence,settings,view
+Master Admin,(false),presence,settings,edit
+Master Admin,(false),groups,team,*
+Master Admin,(false),recording,orphanRecording,view
+Master Admin,(false),recording,orphanRecording,edit
+Master Admin,(false),recording,orphanRecording,delete
+Master Admin,(false),gamification,leaderboard,*
+Master Admin,(false),analytics,speechAndTextAnalyticsAggregates,*
+Master Admin,(false),recording,annotation,add
+Master Admin,(false),recording,annotation,view
+Master Admin,(false),recording,annotation,edit
+Master Admin,(false),recording,annotation,delete
+Master Admin,(false),messaging,email,*
+Performance Management Admin,(false),routing,queue,view
+Performance Management Admin,(false),gamification,*,*
+Screenshare Agent,(false),acdscreenshare,session,view
+Planner Admin,(false),ui,supervisorAgentDetails,view
+Planner Admin,(false),wfp,decisionsDataDownload,download
+Planner Admin,(false),wfm,*,*
+Planner Admin,(false),wfm,agentAdherence,notify
+Predictive Routing,(false),routing,keyPerformanceIndicator,view
+Predictive Routing,(false),routing,predictor,add
+Predictive Routing,(false),routing,predictor,view
+Predictive Routing,(false),routing,predictor,edit
+Predictive Routing,(false),routing,predictor,delete
+Predictive Routing,(false),routing,assessment,add
+Predictive Routing,(false),routing,assessment,view
+Predictive Routing,(false),routing,assessment,delete
+Quality Evaluator,(false),coaching,appointment,participate
+Quality Evaluator,(false),recording,screenRecording,view
+Quality Evaluator,(false),recording,screenRecording,download
+Quality Evaluator,(false),recording,screenRecording,restore
+Quality Evaluator,(false),conversation,communication,view
+Quality Evaluator,(false),quality,evaluation,view
+Quality Evaluator,(false),quality,evaluation,editScore
+Quality Evaluator,(false),recording,encryptionKey,view
+Quality Evaluator,(false),recording,encryptionKey,edit
+Quality Evaluator,(false),recording,annotation,add
+Quality Evaluator,(false),recording,annotation,view
+Quality Evaluator,(false),recording,annotation,edit
+Quality Evaluator,(false),recording,annotation,delete
+Quality Evaluator,(false),audits,interactionDetails,view
+Quality Evaluator,(false),voicemail,acdVoicemail,view
+Quality Evaluator,(false),voicemail,acdVoicemail,delete
+Quality Evaluator,(false),learning,assignment,participate
+Quality Evaluator,(false),recording,recording,view
+Quality Evaluator,(false),recording,recording,download
+Quality Evaluator,(false),recording,recording,restore
+Quality Evaluator,(false),quality,evaluationForm,view
+Salesforce Agent,(false),integration,salesforce,agent
+Outbound Agent,(false),conversation,message,accept
+Outbound Agent,(false),outbound,contact,view
+Outbound Agent,(false),outbound,contact,edit
+Outbound Agent,(false),quality,survey,participate
+Outbound Agent,(false),recording,screenRecording,participate
+Outbound Agent,(false),conversation,email,accept
+Outbound Agent,(false),outbound,dnc,add
+Outbound Agent,(false),scripter,publishedScript,view
+Outbound Agent,(false),scripter,publishedScript,search
+Outbound Agent,(false),conversation,call,add
+Outbound Agent,(false),conversation,call,accept
+Outbound Agent,(false),quality,evaluation,participate
+Outbound Agent,(false),routing,queue,view
+Outbound Agent,(false),routing,queue,search
+Outbound Agent,(false),routing,wrapupCode,view
+Outbound Agent,(false),conversation,webchat,accept
+Outbound Agent,(false),routing,agent,onqueue
+Outbound Agent,(false),conversation,callback,create
+Outbound Agent,(false),conversation,callback,accept
+Wallboard User,(false),architect,flowMilestone,view
+Wallboard User,(false),analytics,conversationAggregate,view
+Wallboard User,(false),analytics,dashboardConfigurations,view
+Wallboard User,(false),analytics,dashboardConfigurations,edit
+Wallboard User,(false),analytics,conversationDetail,view
+Wallboard User,(false),analytics,flowObservation,view
+Wallboard User,(false),architect,flowOutcome,view
+Wallboard User,(false),architect,flowOutcome,search
+Wallboard User,(false),routing,queue,view
+Wallboard User,(false),architect,flow,view
+Wallboard User,(false),analytics,queueObservation,view
+Wallboard User,(false),analytics,flowAggregate,view
+Wallboard User,(false),directory,user,view
+Wallboard User,(false),wfm,realtimeAdherence,view
+Wallboard User,(false),routing,wrapupCode,view
+Trusted External User (Manual),(false),authorization,orgTrustee,add
+Trusted External User (Manual),(false),authorization,orgTrustee,view
+Trusted External User (Manual),(false),authorization,orgTrustee,edit
+Trusted External User (Manual),(false),authorization,orgTrustee,delete
+Trusted External User (Manual),(false),authorization,role,view
+Trusted External User (Manual),(false),authorization,orgTrustor,view
+Trusted External User (Manual),(false),authorization,orgTrusteeUser,*
+Quality Administrator,(false),reporting,quality,view
+Quality Administrator,(false),conversation,communication,view
+Quality Administrator,(false),recording,encryptionKey,view
+Quality Administrator,(false),recording,encryptionKey,edit
+Quality Administrator,(false),coaching,appointment,participate
+Quality Administrator,(false),quality,evaluation,add
+Quality Administrator,(false),quality,evaluation,view
+Quality Administrator,(false),quality,evaluation,edit
+Quality Administrator,(false),quality,evaluation,editAgentSignoff
+Quality Administrator,(false),quality,evaluation,delete
+Quality Administrator,(false),quality,evaluation,editScore
+Quality Administrator,(false),analytics,surveyAggregate,*
+Quality Administrator,(false),recording,job,add
+Quality Administrator,(false),recording,job,view
+Quality Administrator,(false),recording,job,edit
+Quality Administrator,(false),recording,job,delete
+Quality Administrator,(false),architect,flow,search
+Quality Administrator,(false),quality,survey,*
+Quality Administrator,(false),quality,calibration,add
+Quality Administrator,(false),quality,calibration,view
+Quality Administrator,(false),quality,calibration,edit
+Quality Administrator,(false),quality,calibration,delete
+Quality Administrator,(false),recording,annotation,add
+Quality Administrator,(false),recording,annotation,view
+Quality Administrator,(false),recording,annotation,edit
+Quality Administrator,(false),recording,annotation,delete
+Quality Administrator,(false),quality,surveyForm,*
+Quality Administrator,(false),recording,orphanRecording,view
+Quality Administrator,(false),recording,orphanRecording,edit
+Quality Administrator,(false),recording,orphanRecording,delete
+Quality Administrator,(false),recording,settings,editScreenRecordings
+Quality Administrator,(false),recording,recording,*
+Quality Administrator,(false),recording,screenRecording,view
+Quality Administrator,(false),recording,screenRecording,download
+Quality Administrator,(false),recording,screenRecording,stop
+Quality Administrator,(false),recording,screenRecording,restore
+Quality Administrator,(false),recording,screenRecording,editRetention
+Quality Administrator,(false),learning,assignment,participate
+Quality Administrator,(false),recording,retentionPolicy,add
+Quality Administrator,(false),recording,retentionPolicy,view
+Quality Administrator,(false),recording,retentionPolicy,edit
+Quality Administrator,(false),recording,retentionPolicy,delete
+Quality Administrator,(false),routing,queue,search
+Quality Administrator,(false),integrations,integration,view
+Quality Administrator,(false),voicemail,acdVoicemail,view
+Quality Administrator,(false),voicemail,acdVoicemail,delete
+Quality Administrator,(false),audits,interactionDetails,view
+Quality Administrator,(false),quality,evaluationForm,add
+Quality Administrator,(false),quality,evaluationForm,view
+Quality Administrator,(false),quality,evaluationForm,edit
+Quality Administrator,(false),quality,evaluationForm,delete
+Supervisor,(false),routing,queue,view
+Supervisor,(false),routing,queue,search
+Supervisor,(false),routing,queue,edit
+Supervisor,(false),routing,queue,join
+Supervisor,(false),routing,email,manage
+Supervisor,(false),routing,skill,assign
+Supervisor,(false),conversation,message,view
+Supervisor,(false),conversation,message,accept
+Supervisor,(false),analytics,speechAndTextAnalyticsAggregates,view
+Supervisor,(false),conversation,call,add
+Supervisor,(false),conversation,call,barge
+Supervisor,(false),conversation,call,record
+Supervisor,(false),conversation,call,monitor
+Supervisor,(false),conversation,call,coach
+Supervisor,(false),conversation,call,accept
+Supervisor,(false),reporting,status,view
+Supervisor,(false),recording,recording,download
+Supervisor,(false),recording,recording,restore
+Supervisor,(false),recording,recording,editRetention
+Supervisor,(false),recording,recording,delete
+Supervisor,(false),analytics,queueObservation,view
+Supervisor,(false),analytics,flowObservation,view
+Supervisor,(false),analytics,evaluationAggregate,view
+Supervisor,(false),learning,module,view
+Supervisor,(false),routing,keyPerformanceIndicator,add
+Supervisor,(false),routing,keyPerformanceIndicator,view
+Supervisor,(false),routing,keyPerformanceIndicator,edit
+Supervisor,(false),routing,keyPerformanceIndicator,delete
+Supervisor,(false),externalContacts,conversation,associate
+Supervisor,(false),ui,agentQueueActivity,view
+Supervisor,(false),routing,predictorModel,view
+Supervisor,(false),analytics,conversationProperties,index
+Supervisor,(false),coaching,appointmentStatus,view
+Supervisor,(false),acdvideo,session,view
+Supervisor,(false),analytics,conversationAggregate,view
+Supervisor,(false),analytics,conversationDetail,view
+Supervisor,(false),cobrowse,session,monitor
+Supervisor,(false),cobrowse,session,replay
+Supervisor,(false),analytics,userAggregate,view
+Supervisor,(false),analytics,viewConfigurations,*
+Supervisor,(false),recording,recording,view
+Supervisor,(false),recording,annotation,add
+Supervisor,(false),recording,annotation,view
+Supervisor,(false),recording,annotation,edit
+Supervisor,(false),recording,annotation,delete
+Supervisor,(false),gamification,scorecard,view
+Supervisor,(false),gamification,scorecard,viewAll
+Supervisor,(false),ui,supervisorDnisPerformance,view
+Supervisor,(false),reporting,outbound,view
+Supervisor,(false),recording,encryptionKey,view
+Supervisor,(false),recording,encryptionKey,edit
+Supervisor,(false),analytics,dataExport,add
+Supervisor,(false),analytics,dataExport,view
+Supervisor,(false),analytics,dataExport,edit
+Supervisor,(false),analytics,dataExport,publish
+Supervisor,(false),analytics,dataExport,delete
+Supervisor,(false),analytics,tabConfigurations,*
+Supervisor,(false),analytics,insightConfigurations,view
+Supervisor,(false),ui,supervisorWrapUpPerformance,view
+Supervisor,(false),analytics,userDetail,view
+Supervisor,(false),alerting,rule,add
+Supervisor,(false),alerting,rule,view
+Supervisor,(false),alerting,rule,edit
+Supervisor,(false),alerting,rule,delete
+Supervisor,(false),mobile,supervisor,view
+Supervisor,(false),analytics,flowAggregate,view
+Supervisor,(false),gamification,leaderboard,*
+Supervisor,(false),ui,supervisorQueueDetails,view
+Supervisor,(false),analytics,dashboardConfigurations,*
+Supervisor,(false),conversation,conference,add
+Supervisor,(false),analytics,dataRetention,view
+Supervisor,(false),ui,supervisorDashboard,view
+Supervisor,(false),coaching,appointment,add
+Supervisor,(false),coaching,appointment,view
+Supervisor,(false),conversation,email,accept
+Supervisor,(false),routing,agent,onqueue
+Supervisor,(false),routing,predictor,add
+Supervisor,(false),routing,predictor,view
+Supervisor,(false),routing,predictor,edit
+Supervisor,(false),routing,predictor,delete
+Supervisor,(false),routing,wrapupCode,view
+Supervisor,(false),groups,team,view
+Supervisor,(false),analytics,userObservation,view
+Supervisor,(false),coaching,appointmentConversation,add
+Supervisor,(false),routing,predictorModelFeature,view
+Supervisor,(false),recording,recordingSegment,view
+Supervisor,(false),directory,user,view
+Supervisor,(false),voicemail,acdVoicemail,view
+Supervisor,(false),voicemail,acdVoicemail,delete
+Supervisor,(false),reporting,interactions,view
+Supervisor,(false),conversation,webchat,accept
+Supervisor,(false),conversation,participant,wrapup
+Supervisor,(false),ui,supervisorPerformance,view
+Supervisor,(false),conversation,communication,disconnect
+Supervisor,(false),conversation,communication,view
+Supervisor,(false),conversation,communication,transfer
+Supervisor,(false),conversation,communication,target
+Supervisor,(false),conversation,webmessaging,view
+Supervisor,(false),conversation,webmessaging,accept
+Supervisor,(false),alerting,alert,add
+Supervisor,(false),alerting,alert,view
+Supervisor,(false),alerting,alert,edit
+Supervisor,(false),alerting,alert,delete
+Supervisor,(false),routing,utilization,view
+Supervisor,(false),routing,utilization,manage
+Supervisor,(false),reporting,quality,view
+Supervisor,(false),ui,supervisorAgentDetails,view
+Supervisor,(false),coaching,scheduleSlot,view
+Supervisor,(false),learning,assignment,*
+Supervisor,(false),ui,supervisorScheduledCallbacks,view
+Supervisor,(false),ui,supervisorStatusControl,view
+Supervisor,(false),reporting,acd,view
+Telephony Admin,(false),directory,organization,admin
+Telephony Admin,(false),telephony,*,*
+User,(false),analytics,queueObservation,view
+User,(false),journey,session,view
+User,(false),ui,agentDashboardPerformance,view
+User,(false),ui,agentDashboardEvaluations,view
+User,(false),journey,eventtype,view
+User,(false),routing,queue,view
+User,(false),routing,queue,search
+User,(false),routing,queue,join
+User,(false),conversation,recording,pause
+User,(false),quality,survey,participate
+User,(false),analytics,userObservation,view
+User,(false),gamification,scorecard,view
+User,(false),ui,agentDashboardStatus,view
+User,(false),responses,library,view
+User,(false),ui,agentQueueActivity,view
+User,(false),analytics,conversationAggregate,view
+User,(false),analytics,conversationDetail,view
+User,(false),externalContacts,conversation,associate
+User,(false),recording,screenRecording,participate
+User,(false),recording,annotation,add
+User,(false),recording,annotation,view
+User,(false),recording,annotation,delete
+User,(false),analytics,dataExport,add
+User,(false),analytics,dataExport,view
+User,(false),analytics,dataExport,edit
+User,(false),analytics,dataExport,delete
+User,(false),scripter,publishedScript,view
+User,(false),scripter,publishedScript,search
+User,(false),conversation,webchat,accept
+User,(false),responses,response,view
+User,(false),quality,surveyForm,view
+User,(false),quality,evaluation,view
+User,(false),quality,evaluation,editAgentSignoff
+User,(false),analytics,userAggregate,view
+User,(false),conversation,call,add
+User,(false),conversation,call,record
+User,(false),conversation,call,accept
+User,(false),conversation,callback,create
+User,(false),conversation,callback,accept
+User,(false),learning,assignment,participate
+User,(false),coaching,appointment,participate
+User,(false),wfm,agentShiftTradeRequest,participate
+User,(false),conversation,message,view
+User,(false),conversation,message,create
+User,(false),conversation,message,accept
+User,(false),quality,evaluationForm,view
+User,(false),directory,user,view
+User,(false),quality,evaluation,participate
+User,(false),routing,wrapupCode,view
+User,(false),journey,sessiontype,view
+User,(false),recording,media,record
+User,(false),wfm,agentSchedule,view
+User,(false),wfm,agentSchedule,utilizeLoadBased
+User,(false),conversation,conference,add
+User,(false),wfm,agentTimeOffRequest,submit
+User,(false),routing,agent,onqueue
+User,(false),recording,recording,view
+User,(false),recording,recording,restore
+User,(false),ui,agentActivity,view
+User,(false),conversation,email,forward
+User,(false),conversation,email,create
+User,(false),conversation,email,accept
+User,(false),wfm,agentAdherence,notify
+User,(false),acdvideo,session,view
+User,(false),journey,event,view
+User,(false),gamification,leaderboard,view
+User,(false),analytics,tabConfigurations,view
+User,(false),analytics,tabConfigurations,edit
+User,(false),analytics,tabConfigurations,delete
+Relate User,(false),relate,contact,add
+Relate User,(false),relate,contact,view
+Relate User,(false),relate,contact,edit
+Relate User,(false),relate,contact,delete
+Relate User,(false),relate,externalOrganization,add
+Relate User,(false),relate,externalOrganization,view
+Relate User,(false),relate,externalOrganization,edit
+Relate User,(false),relate,externalOrganization,delete
+Relate User,(false),relate,externalEntity,import
+Script Designer,(false),scripter,script,add
+Script Designer,(false),scripter,script,view
+Script Designer,(false),scripter,script,search
+Script Designer,(false),scripter,script,edit
+Script Designer,(false),scripter,script,delete
+Script Designer,(false),scripter,publishedScript,add
+Script Designer,(false),scripter,publishedScript,view
+Script Designer,(false),scripter,publishedScript,search
+Script Designer,(false),scripter,publishedScript,edit
+Script Designer,(false),scripter,publishedScript,delete
+WFM Team Leader,(false),wfm,agentSchedule,*
+WFM Team Leader,(false),wfm,agentScheduleNotification,*
+WFM Team Leader,(false),wfm,agentAdherence,notify
+WFM Team Leader,(false),wfm,schedule,*
+Webdeployments Admin,(false),webDeployments,*,*

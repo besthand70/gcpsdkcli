@@ -1,0 +1,1721 @@
+[
+  {
+    "id": "865e14eb-f926-4b9f-9749-d10ae4ec7c72",
+    "name": "Alice Alderaan",
+    "division": {
+      "id": "cb228b5b-f23b-4ef3-b172-348e39e1993e",
+      "name": "Div A",
+      "selfUri": "/api/v2/authorization/divisions/cb228b5b-f23b-4ef3-b172-348e39e1993e"
+    },
+    "chat": {
+      "jabberId": "602d524ffdd9211b65e38e16@genesys-turkey.orgspan.com"
+    },
+    "email": "alice.alderaan@gmail.com",
+    "primaryContactInfo": [
+      {
+        "address": "alice.alderaan@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "alice.alderaan@gmail.com",
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/369fd14c/84a2/4dcf/8cd9/49cc1d3a3611.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/b8747463/5de7/452c/a7da/0c20e876b03a.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/97adc9e8/753c/41b7/bde4/acc525e890ea.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/f87a468c/00d0/4ca4/9e3f/b8c56a442696.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/95340d81/2933/4deb/bb64/03f8667988ba.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/d310c050/3aa8/4f2a/ae31/2892a4714d2e.jpg"
+      }
+    ],
+    "version": 4,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/865e14eb-f926-4b9f-9749-d10ae4ec7c72"
+  },
+  {
+    "id": "d9bdaa7c-3d96-4954-bf7c-edfb7ed462af",
+    "name": "Alperen Değirmenci",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "6194b32f76b2f11a497b208d@genesys-turkey.orgspan.com"
+    },
+    "email": "alperen.degirmenci@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "alperen.degirmenci@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "alperen.degirmenci@genesys.com",
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/2ac3a268/16c8/4ce5/9ddb/9a3b5d594cb6.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/ee12992d/ffb8/43e7/bbd1/a9f3423bb4a6.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/c44a4d2c/b2c5/4843/befe/c754804b1458.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/355c4030/224c/46ba/92e4/011a981a4c05.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/ece66e2c/0c95/4056/93f5/0dc7e23a446a.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/214bfd22/0876/4a86/bab0/2cb258185fd9.jpg"
+      }
+    ],
+    "version": 8,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/d9bdaa7c-3d96-4954-bf7c-edfb7ed462af"
+  },
+  {
+    "id": "7a55be6c-ce6a-4d52-bebd-f220f9ed97c0",
+    "name": "Anne Bonny",
+    "division": {
+      "id": "cb228b5b-f23b-4ef3-b172-348e39e1993e",
+      "name": "Div A",
+      "selfUri": "/api/v2/authorization/divisions/cb228b5b-f23b-4ef3-b172-348e39e1993e"
+    },
+    "chat": {
+      "jabberId": "602d691ce3c8311b32bc16f4@genesys-turkey.orgspan.com"
+    },
+    "email": "anne.bonny@gmail.com",
+    "primaryContactInfo": [
+      {
+        "address": "anne.bonny@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "anne.bonny@gmail.com",
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/fa3ae475/a61c/417f/a510/5baef38560d4.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/493a0ba0/2421/4ef1/9315/2da8836e7284.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/75b2403e/efa4/4e56/9a7f/b16e3748c910.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/6b0eec70/cbc6/4520/a9ae/ccfec5558851.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/30af6257/312d/4f34/9406/69d5b9977607.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/f7b2ed2a/0ca6/438a/ab30/87728e800231.jpg"
+      }
+    ],
+    "version": 5,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/7a55be6c-ce6a-4d52-bebd-f220f9ed97c0"
+  },
+  {
+    "id": "31733c31-70a9-40ca-8546-da6cc0c80a4c",
+    "name": "Baran Besteli",
+    "division": {
+      "id": "471bbd06-0da9-4ba9-81d9-b83bb161402d",
+      "name": "Div B",
+      "selfUri": "/api/v2/authorization/divisions/471bbd06-0da9-4ba9-81d9-b83bb161402d"
+    },
+    "chat": {
+      "jabberId": "602d5376c5e4701be0a353b6@genesys-turkey.orgspan.com"
+    },
+    "email": "baran.besteli@gmail.com",
+    "primaryContactInfo": [
+      {
+        "address": "baran.besteli@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "baran.besteli@gmail.com",
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/a4e239db/354e/4ea5/9646/e6a1f80a3dae.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/d2c99acb/e0cf/4809/bdc0/bace9141de93.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/b8786299/88c2/41d5/babd/0be29752f3b1.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/b4655aba/38a9/4c2f/8e3c/3cf8aecc3190.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/0828a411/5994/4292/a31a/3580cd3f365c.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/81a70942/0ee9/4ce2/8773/f3ed83f75a8e.jpg"
+      }
+    ],
+    "version": 4,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/31733c31-70a9-40ca-8546-da6cc0c80a4c"
+  },
+  {
+    "id": "e126d83f-f757-4dbc-8288-5762b3a81bab",
+    "name": "Berktan Bestel",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "589c4341a916dc1cff27e268@genesys-turkey.orgspan.com"
+    },
+    "department": "Genesys-Turkey",
+    "email": "berktan.bestel@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "berktan.bestel@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1100",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1100"
+      }
+    ],
+    "addresses": [
+      {
+        "address": "berktan.bestel@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "HOME"
+      },
+      {
+        "display": "1100",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "extension": "1100",
+        "countryCode": "US"
+      },
+      {
+        "address": "+902123420001",
+        "display": "+90 212 342 00 01",
+        "mediaType": "PHONE",
+        "type": "WORK2",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "title": "Principal Solution Consultant",
+    "username": "berktan.bestel@genesys.com",
+    "images": [
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/90767708/beb2/4cc8/8294/f1647d0b3751.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/3cdaa97f/ba70/4fc7/84fc/c47bbf335d9f.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/6ec615e6/fccf/4937/b835/db6114fc23bd.jpg"
+      },
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/b5d4aa42/626d/4b62/9c11/c7412cde842a.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/61840fae/e94c/4019/a4af/7d30fb42076b.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/f3980150/a10c/49f1/b17d/f0e2bba1d61d.jpg"
+      }
+    ],
+    "version": 65,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/e126d83f-f757-4dbc-8288-5762b3a81bab"
+  },
+  {
+    "id": "20a18dd0-5dca-41e5-a4c6-c8dae773845d",
+    "name": "Burcu Backoffice",
+    "division": {
+      "id": "471bbd06-0da9-4ba9-81d9-b83bb161402d",
+      "name": "Div B",
+      "selfUri": "/api/v2/authorization/divisions/471bbd06-0da9-4ba9-81d9-b83bb161402d"
+    },
+    "chat": {
+      "jabberId": "6013e8b462e0711c1c82018d@genesys-turkey.orgspan.com"
+    },
+    "email": "burcu.backoffice@gmail.com",
+    "primaryContactInfo": [
+      {
+        "address": "burcu.backoffice@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1121",
+        "mediaType": "SMS",
+        "type": "PRIMARY",
+        "extension": "1121"
+      },
+      {
+        "display": "1121",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1121"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "1121",
+        "mediaType": "SMS",
+        "type": "WORK",
+        "extension": "1121",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "burcu.backoffice@gmail.com",
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/c48a18a2/2670/42f5/bdbd/4e7e7cce3b6a.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/79e6ce93/d4a6/4dab/a7fc/c3b14f2a42c6.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9d336d5a/cd6c/4030/bd3d/52da88c77e5a.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/e9537d2a/3bc6/4f1f/8ca7/fac8f331e46d.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/411c872e/4dce/47f4/bcc5/a8de31320c6d.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/1f34a884/fb82/47ee/b457/e7a3a3b09882.jpg"
+      }
+    ],
+    "version": 10,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/20a18dd0-5dca-41e5-a4c6-c8dae773845d"
+  },
+  {
+    "id": "811a7fce-bbcf-442d-bad7-f2ec5f85e55a",
+    "name": "Ceren Kahve",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5df767c7e3adf61942bf2f3f@genesys-turkey.orgspan.com"
+    },
+    "email": "ceren.besteli@gmail.com",
+    "primaryContactInfo": [
+      {
+        "address": "ceren.besteli@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1402",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1402"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "1402",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "extension": "1402",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "ceren.besteli@gmail.com",
+    "manager": {
+      "id": "5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c",
+      "selfUri": "/api/v2/users/5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/1863b7e7/2313/4792/8775/d0ca5154e082.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/8c4b1e6a/e4ed/4262/bc6c/36e03f355186.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/d1b34896/7897/48ed/b249/fcee6d459e60.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/62e4b3bb/bd16/45b4/a0cd/f5fe055aacca.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/daa33422/3e71/4c03/951d/510d48cf53c2.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/2c22e19c/833f/4ae8/809a/6c74f9f293d5.jpg"
+      }
+    ],
+    "version": 36,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/811a7fce-bbcf-442d-bad7-f2ec5f85e55a"
+  },
+  {
+    "id": "d4f7f140-0a46-4dbb-a27c-0593128032d8",
+    "name": "Claudia Collector",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5a3293694116d71d3a643e0b@genesys-turkey.orgspan.com"
+    },
+    "department": "Collections",
+    "email": "claudia.collector@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "claudia.collector@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "title": "Outbound Agent",
+    "username": "claudia.collector@genesys.com",
+    "images": [
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/fffce96b/b056/4c5b/a284/623c62df803b.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/88399dcd/6b26/4212/b598/dd88bf92dd8c.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/06587c7e/c226/4e1a/ad05/be33bfdbe7c2.jpg"
+      },
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/c3657201/1926/43da/9037/5fc656f8e6b2.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/344c521d/f8e3/45b2/961a/61bb5a3051e9.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/f656bdd5/8bca/4208/a3a7/3fc1fc78a788.jpg"
+      }
+    ],
+    "version": 10,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/d4f7f140-0a46-4dbb-a27c-0593128032d8"
+  },
+  {
+    "id": "3d59f32a-fbb6-43ba-b7a3-2b676f635acf",
+    "name": "Coffee Carol",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5aba94c13b09de157f8ed5dd@genesys-turkey.orgspan.com"
+    },
+    "email": "carol@coffeeisland.com",
+    "primaryContactInfo": [
+      {
+        "address": "carol@coffeeisland.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "(1405)",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "carol@coffeeisland.com",
+    "manager": {
+      "id": "5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c",
+      "selfUri": "/api/v2/users/5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/cc934ffd/eabc/41da/964c/1e02f4e26396.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9c2c7c91/ab4f/4473/a3d4/116eea5033bf.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/659cfc93/8b17/459e/84b6/6828335f0a7e.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/0d282a2c/70f5/4130/852c/308473c9ec0d.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/0ec32c32/351f/4cb2/829b/f519c3ea4042.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/46de1bb1/c66d/46b7/8e0e/0827d0e16ae3.jpg"
+      }
+    ],
+    "version": 19,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/3d59f32a-fbb6-43ba-b7a3-2b676f635acf"
+  },
+  {
+    "id": "d931e982-5bb8-4e82-a455-e19a45d9a3b4",
+    "name": "Coffee Chris",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5aba9491a54cc9157a6fd53b@genesys-turkey.orgspan.com"
+    },
+    "email": "chris@coffeeisland.com",
+    "primaryContactInfo": [
+      {
+        "address": "chris@coffeeisland.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "(1406)",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "chris@coffeeisland.com",
+    "manager": {
+      "id": "5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c",
+      "selfUri": "/api/v2/users/5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c"
+    },
+    "version": 11,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/d931e982-5bb8-4e82-a455-e19a45d9a3b4"
+  },
+  {
+    "id": "5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c",
+    "name": "Coffee Super",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5aba908198298a154bad7a0f@genesys-turkey.orgspan.com"
+    },
+    "email": "super@coffeeisland.com",
+    "primaryContactInfo": [
+      {
+        "address": "super@coffeeisland.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "(1401)",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "super@coffeeisland.com",
+    "manager": {
+      "id": "e126d83f-f757-4dbc-8288-5762b3a81bab",
+      "selfUri": "/api/v2/users/e126d83f-f757-4dbc-8288-5762b3a81bab"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9f2afad3/22b4/4472/8ba4/9663267946c2.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/4d3bc529/2463/447f/b1cd/1b64362e2d84.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/0b523fc7/786d/4b8b/a7b0/28192e019f82.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/57193102/e923/4154/80f5/d14d5c027ff1.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/e169f608/1175/41d3/9f09/f2f0adf37296.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/3b3fb84b/2943/476f/a590/172edb3c17d2.jpg"
+      }
+    ],
+    "version": 19,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c"
+  },
+  {
+    "id": "34eaedfa-709f-4b5d-993a-3595519b50f6",
+    "name": "EPS",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "58dd59d14a83811a207b6fed@genesys-turkey.orgspan.com"
+    },
+    "email": "eps@inin.com",
+    "primaryContactInfo": [
+      {
+        "address": "eps@inin.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "eps@inin.com",
+    "version": 5,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/34eaedfa-709f-4b5d-993a-3595519b50f6"
+  },
+  {
+    "id": "f078fb4b-31a2-45f9-8404-7d2d463b0291",
+    "name": "Eleni Poulimenea",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5abb5c683b09de15821af4c5@genesys-turkey.orgspan.com"
+    },
+    "email": "eleni.poulimenea@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "eleni.poulimenea@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "eleni.poulimenea@genesys.com",
+    "version": 4,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/f078fb4b-31a2-45f9-8404-7d2d463b0291"
+  },
+  {
+    "id": "eb3391c8-c6e9-4163-a57b-db01b9b56f41",
+    "name": "Farah Fay",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "6078a04cb5c0d51b511cf34c@genesys-turkey.orgspan.com"
+    },
+    "department": "Backoffice",
+    "email": "farah.fay@gtr.com",
+    "primaryContactInfo": [
+      {
+        "address": "farah.fay@gtr.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1123",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1123"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "1123",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "extension": "1123",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "title": "Clerk",
+    "username": "farah.fay@gtr.com",
+    "manager": {
+      "id": "20a18dd0-5dca-41e5-a4c6-c8dae773845d",
+      "selfUri": "/api/v2/users/20a18dd0-5dca-41e5-a4c6-c8dae773845d"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/04bad143/47ba/40cf/a089/0c9252d3591f.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/3e9f799d/db78/4093/8f46/958375fc099d.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/e473356a/9992/4d0e/a73c/f3e4449b8025.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/c4e513c1/bca4/4cd6/a904/5ea7bcbd1354.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/c10052aa/40cc/4ff0/bf48/9b8d10b5e658.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/162189b6/8585/4486/af4a/391b0fe1ee64.jpg"
+      }
+    ],
+    "version": 6,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/eb3391c8-c6e9-4163-a57b-db01b9b56f41"
+  },
+  {
+    "id": "3a59ddf4-0a51-4a83-9ac0-d4e7f43090e1",
+    "name": "GTR Admin",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "6079be0945128b1a721497e9@genesys-turkey.orgspan.com"
+    },
+    "email": "gtr.yonetici@gmail.com",
+    "primaryContactInfo": [
+      {
+        "address": "gtr.yonetici@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "title": "Sys Admin",
+    "username": "gtr.yonetici@gmail.com",
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/be6cffaa/e84d/46cc/a56f/0a0aa9c3405d.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/34ab0a51/74e2/4ba9/b68a/0ddb5a50076a.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/e0e6b3f3/18f8/4293/8e31/fc3f53d6eabf.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/bc9e9025/7168/4419/b629/6c89b1b86765.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/d2ccc947/e96a/49eb/b728/9d3ed3bb23b5.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/dcbecdd5/aa0e/4b14/8991/3cb7d7ed9423.jpg"
+      }
+    ],
+    "version": 4,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/3a59ddf4-0a51-4a83-9ac0-d4e7f43090e1"
+  },
+  {
+    "id": "d2cd0aff-6ccc-40ef-8a34-73a967771675",
+    "name": "Generic",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "59de54d258a2581c59052e2c@genesys-turkey.orgspan.com"
+    },
+    "email": "integration-generic-a557f300-aea9-11e7-80d6-f774d3ddf431@webhook.com",
+    "primaryContactInfo": [
+      {
+        "address": "integration-generic-a557f300-aea9-11e7-80d6-f774d3ddf431@webhook.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "integration-generic-a557f300-aea9-11e7-80d6-f774d3ddf431@webhook.com",
+    "version": 3,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/d2cd0aff-6ccc-40ef-8a34-73a967771675"
+  },
+  {
+    "id": "82f35487-ffde-48dd-b26f-3d707b0951e2",
+    "name": "Hazal Hay",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "6078a04c6522241a789efe7c@genesys-turkey.orgspan.com"
+    },
+    "department": "Backoffice",
+    "email": "hazal.hay@gtr.com",
+    "primaryContactInfo": [
+      {
+        "address": "hazal.hay@gtr.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1124",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1124"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "1124",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "extension": "1124",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "title": "Clerk",
+    "username": "hazal.hay@gtr.com",
+    "manager": {
+      "id": "20a18dd0-5dca-41e5-a4c6-c8dae773845d",
+      "selfUri": "/api/v2/users/20a18dd0-5dca-41e5-a4c6-c8dae773845d"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/12defddd/52f5/4954/b475/4b0529d8b332.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/ab3d8d0a/5b2e/4ae7/9e79/1cccb2f48ab9.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/f22f3a32/8398/4186/b2f2/827257117f8b.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/c9660e3e/af26/4321/aebe/348233593ec3.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/1f435145/68a3/4806/8b8e/9d2b4e687f87.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/df3c6f07/b458/4780/a592/b2e3a17fd154.jpg"
+      }
+    ],
+    "version": 8,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/82f35487-ffde-48dd-b26f-3d707b0951e2"
+  },
+  {
+    "id": "30deee0c-1273-4ecd-a7bc-5dbd7bb936a9",
+    "name": "Marc Sassoon",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "63298cc6c0c8c31b7bbe7730@genesys-turkey.orgspan.com"
+    },
+    "email": "marc.sassoon@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "marc.sassoon@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "marc.sassoon@genesys.com",
+    "version": 2,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/30deee0c-1273-4ecd-a7bc-5dbd7bb936a9"
+  },
+  {
+    "id": "717567ad-e9c1-4afa-b1db-22b73e891c16",
+    "name": "Marcin Szczepanski",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "589c42d75383d51d0ead0b13@genesys-turkey.orgspan.com"
+    },
+    "department": "",
+    "email": "marcin.szczepanski@outlook.com",
+    "primaryContactInfo": [
+      {
+        "address": "marcin.szczepanski@outlook.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "title": "",
+    "username": "marcin.szczepanski@outlook.com",
+    "version": 6,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/717567ad-e9c1-4afa-b1db-22b73e891c16"
+  },
+  {
+    "id": "cb6e3e7a-1cbb-4906-b07a-e8d5be40585c",
+    "name": "Marcin Szczepanski (Genesys)",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "58a0583cf404e41e938e3558@genesys-turkey.orgspan.com"
+    },
+    "email": "marcin.szczepanski@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "marcin.szczepanski@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "marcin.szczepanski@genesys.com",
+    "version": 7,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/cb6e3e7a-1cbb-4906-b07a-e8d5be40585c"
+  },
+  {
+    "id": "29fca818-df53-416a-a8e6-79486dc38e85",
+    "name": "PCS",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "58e77fb1a79d541b931c83ad@genesys-turkey.orgspan.com"
+    },
+    "email": "pcs@inin.com",
+    "primaryContactInfo": [
+      {
+        "address": "pcs@inin.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "pcs@inin.com",
+    "version": 4,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/29fca818-df53-416a-a8e6-79486dc38e85"
+  },
+  {
+    "id": "8ed2d6e0-647e-4fce-a2db-a71962826747",
+    "name": "Paul Pureagent",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5acb77412be0db157114bdc1@genesys-turkey.orgspan.com"
+    },
+    "email": "paul.pureagent@nepado.onmicrosoft.com",
+    "primaryContactInfo": [
+      {
+        "address": "paul.pureagent@nepado.onmicrosoft.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "paul.pureagent@nepado.onmicrosoft.com",
+    "images": [
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/bd38708a/0db5/4d74/9cf3/b4518e23f16a.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/5fd40b67/affb/4e82/8445/244728692648.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/e6992a5e/f279/47b9/abc9/2b9f468b2bdc.jpg"
+      },
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/27c6831c/022a/4aa2/a119/3d9166d91bd5.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/0753bd79/55da/47ea/be15/eb5b4b6570f5.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/611a426e/5352/404d/867b/20d63d6a016b.jpg"
+      }
+    ],
+    "version": 6,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/8ed2d6e0-647e-4fce-a2db-a71962826747"
+  },
+  {
+    "id": "a0f05251-4bfe-4927-856f-0011b8bfedb4",
+    "name": "Paula Supervisor",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "589c42de5383d51d0ead0b1a@genesys-turkey.orgspan.com"
+    },
+    "department": "Genesys",
+    "email": "paula.supervisor@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "paula.supervisor@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1113",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1113"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "1113",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "extension": "1113",
+        "countryCode": "US"
+      }
+    ],
+    "state": "active",
+    "title": "Lead, Sample Person Team",
+    "username": "paula.supervisor@genesys.com",
+    "manager": {
+      "id": "e126d83f-f757-4dbc-8288-5762b3a81bab",
+      "selfUri": "/api/v2/users/e126d83f-f757-4dbc-8288-5762b3a81bab"
+    },
+    "images": [
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/17c7b66d/d265/4aa5/a881/b1ff9ab68090.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/4603e8ad/a9f1/4609/9ccd/ca0464b94912.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/ef674873/79c6/44fe/a192/8b94f3c2e5f6.jpg"
+      },
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/e88ee838/2dfa/4a5c/ba82/fbfbe9083fc0.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9aa1b707/d98a/44ad/8e66/89b8c10db94f.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/bdaa3e50/c1dd/47b2/a0ed/ac1983560114.jpg"
+      }
+    ],
+    "version": 36,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/a0f05251-4bfe-4927-856f-0011b8bfedb4"
+  },
+  {
+    "id": "5fafd310-84ba-47b3-97ea-ae5473737c7b",
+    "name": "Pavithra Girirajanna",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "62d84b7d43ce1f1c8e09cd3f@genesys-turkey.orgspan.com"
+    },
+    "email": "pavithra.girirajanna@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "pavithra.girirajanna@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "pavithra.girirajanna@genesys.com",
+    "version": 1,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/5fafd310-84ba-47b3-97ea-ae5473737c7b"
+  },
+  {
+    "id": "d2e69b5e-cc2e-462b-ae6c-0ea25cc6814f",
+    "name": "Peter PureAgent",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "589c42dea916dc1d0035045a@genesys-turkey.orgspan.com"
+    },
+    "department": "Genesys",
+    "email": "peter.pureagent@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "peter.pureagent@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "title": "Sr. Sample Person",
+    "username": "peter.pureagent@genesys.com",
+    "manager": {
+      "id": "a0f05251-4bfe-4927-856f-0011b8bfedb4",
+      "selfUri": "/api/v2/users/a0f05251-4bfe-4927-856f-0011b8bfedb4"
+    },
+    "images": [
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/b0443e9d/362a/472a/ab8d/876e43ab32a1.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/a3935868/720c/492e/aa35/275a57a7fb22.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/ac1574fb/44c4/4d0e/863e/8f3ef1fd882e.jpg"
+      },
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/176f29f5/875e/43b1/b076/2a91a61edbf5.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/577afe7c/9a4e/4017/a649/5ac05b4d8568.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/d12bbe44/b9ec/48c2/8d7d/304b6902755c.jpg"
+      }
+    ],
+    "version": 24,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/d2e69b5e-cc2e-462b-ae6c-0ea25cc6814f"
+  },
+  {
+    "id": "bff77dab-85be-4195-a499-38b27110f0a9",
+    "name": "PureCloud Support",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "58de0db0749da51b1396a37f@genesys-turkey.orgspan.com"
+    },
+    "email": "mpc@genesys.com",
+    "primaryContactInfo": [
+      {
+        "address": "mpc@genesys.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "mpc@genesys.com",
+    "version": 6,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/bff77dab-85be-4195-a499-38b27110f0a9"
+  },
+  {
+    "id": "28faf523-82aa-43ab-88f7-9113d2966d55",
+    "name": "PurecloudSupport(NonBillable)",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "58f805c2a79d541b931cc9cc@genesys-turkey.orgspan.com"
+    },
+    "email": "mpc@inin.com",
+    "primaryContactInfo": [
+      {
+        "address": "mpc@inin.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "mpc@inin.com",
+    "version": 4,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/28faf523-82aa-43ab-88f7-9113d2966d55"
+  },
+  {
+    "id": "41d290ec-02ef-49f7-b13d-48f16dba8117",
+    "name": "Selma Kayak",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "607899ba63bb3d1b6501ed8b@genesys-turkey.orgspan.com"
+    },
+    "email": "selma.kayak@gtr.com",
+    "primaryContactInfo": [
+      {
+        "address": "selma.kayak@gtr.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1122",
+        "mediaType": "SMS",
+        "type": "PRIMARY",
+        "extension": "1122"
+      },
+      {
+        "display": "1122",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1122"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "1122",
+        "mediaType": "SMS",
+        "type": "WORK",
+        "extension": "1122",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "selma.kayak@gtr.com",
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/4b1feab5/1922/411b/9ff4/8f850b4854c7.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/5824ec70/a417/45fe/8e5a/1430e6a0a24f.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/5d2c462c/8429/4417/8b89/96b52712f11a.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/343958e2/73c7/4dad/a6b7/b8325daf1005.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/cba23b12/e770/459f/8837/3da1b44bbdf2.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/54e4615e/f2c1/4662/89f8/b982dae7a354.jpg"
+      }
+    ],
+    "version": 6,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/41d290ec-02ef-49f7-b13d-48f16dba8117"
+  },
+  {
+    "id": "0f4ed17c-0a11-4031-94ef-183aab42fd6f",
+    "name": "Shiny Sarah",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5aba919ca54cc91579149ec2@genesys-turkey.orgspan.com"
+    },
+    "email": "sarah@shinyshoes.com",
+    "primaryContactInfo": [
+      {
+        "address": "sarah@shinyshoes.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "sarah@shinyshoes.com",
+    "manager": {
+      "id": "224b0a9d-a869-4043-838f-0c022c845644",
+      "selfUri": "/api/v2/users/224b0a9d-a869-4043-838f-0c022c845644"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/f0fb40c8/d6df/45cd/9c22/9420f986af35.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/46f9ab56/103d/453b/b1ce/a125faf2e1f4.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/6047ae9f/8eea/4db4/86b8/4a9cd3077cb9.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/0c1f336c/f939/4ecb/ac6e/8edf12691c24.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/46460347/0bd5/4dd3/928f/768ac27bb922.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9236990f/20ba/43e6/9ecd/751022ff4385.jpg"
+      }
+    ],
+    "version": 14,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/0f4ed17c-0a11-4031-94ef-183aab42fd6f"
+  },
+  {
+    "id": "224b0a9d-a869-4043-838f-0c022c845644",
+    "name": "Shiny Super",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5aba91485ba3d415519f84a1@genesys-turkey.orgspan.com"
+    },
+    "email": "super@shinyshoes.com",
+    "primaryContactInfo": [
+      {
+        "address": "super@shinyshoes.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "(1501)",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "super@shinyshoes.com",
+    "manager": {
+      "id": "e126d83f-f757-4dbc-8288-5762b3a81bab",
+      "selfUri": "/api/v2/users/e126d83f-f757-4dbc-8288-5762b3a81bab"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/dda792bd/c591/406a/b234/5f3aa7f8dcc1.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/162027b4/df05/42b5/ab68/dee6681e6ae0.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/7994ea8f/a8e1/4137/8010/44683548a03a.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/b4202bed/b111/4a6b/9e3b/a703d930c09f.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/cba24104/820a/4032/b009/72e7823c915d.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/fd4727fd/d51a/47da/82a8/66615d9fc26d.jpg"
+      }
+    ],
+    "version": 15,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/224b0a9d-a869-4043-838f-0c022c845644"
+  },
+  {
+    "id": "d912a174-7c3b-4fe2-ae98-2048ad97bbbd",
+    "name": "Shiny Susan",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5aba91dae69e7a1584b32fb1@genesys-turkey.orgspan.com"
+    },
+    "email": "susan@shinyshoes.com",
+    "primaryContactInfo": [
+      {
+        "address": "susan@shinyshoes.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "susan@shinyshoes.com",
+    "manager": {
+      "id": "224b0a9d-a869-4043-838f-0c022c845644",
+      "selfUri": "/api/v2/users/224b0a9d-a869-4043-838f-0c022c845644"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/d0ef5f7c/d22a/4ace/801c/ccff414d0cec.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9a292ecb/5588/4114/a08d/11e36d0a110a.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/649ba816/d437/42f1/90f3/a56c7e9a998c.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9af1ee38/9240/40a8/bd3e/793589366642.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/34b1982a/b9a5/41fa/93dc/1b24bbcca1fc.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/c9823ce0/595e/4de4/9657/6c07eea9bee5.jpg"
+      }
+    ],
+    "version": 11,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/d912a174-7c3b-4fe2-ae98-2048ad97bbbd"
+  },
+  {
+    "id": "6db4d5df-4cf3-4c43-acdb-dae08e831f0b",
+    "name": "Sinem Koz",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5ee1ffbc0a302415cb57a2d4@genesys-turkey.orgspan.com"
+    },
+    "email": "skoz.gtr@gmail.com",
+    "primaryContactInfo": [
+      {
+        "address": "skoz.gtr@gmail.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      },
+      {
+        "display": "1403",
+        "mediaType": "PHONE",
+        "type": "PRIMARY",
+        "extension": "1403"
+      }
+    ],
+    "addresses": [
+      {
+        "display": "(1403)",
+        "mediaType": "PHONE",
+        "type": "WORK",
+        "countryCode": "TR"
+      },
+      {
+        "display": "1403",
+        "mediaType": "PHONE",
+        "type": "WORK2",
+        "extension": "1403",
+        "countryCode": "TR"
+      }
+    ],
+    "state": "active",
+    "username": "skoz.gtr@gmail.com",
+    "manager": {
+      "id": "5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c",
+      "selfUri": "/api/v2/users/5a2d3f18-e7a4-41cd-aba2-410ebe02ff9c"
+    },
+    "images": [
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/b5be8802/8aa2/4aeb/a4fe/bdbac3f435c3.jpg"
+      },
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/d7b7af80/f430/4fb4/8e6d/08f8be4e4bdb.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/9c2ec986/17cf/4380/a3dd/0c0e52712495.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/f17db677/2986/48e7/ba03/c61df0381258.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/0721cdff/fc1d/48af/8f0f/221fc600650a.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/355d73e9/6b3d/44e6/abbc/d7646389d12e.jpg"
+      }
+    ],
+    "version": 30,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/6db4d5df-4cf3-4c43-acdb-dae08e831f0b"
+  },
+  {
+    "id": "e0d6d2c3-29c3-484b-b54c-aca9f3d34d14",
+    "name": "Susan Supervisor",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5acb771fa49f32156d170607@genesys-turkey.orgspan.com"
+    },
+    "email": "susan.supervisor@nepado.onmicrosoft.com",
+    "primaryContactInfo": [
+      {
+        "address": "susan.supervisor@nepado.onmicrosoft.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "susan.supervisor@nepado.onmicrosoft.com",
+    "manager": {
+      "id": "e126d83f-f757-4dbc-8288-5762b3a81bab",
+      "selfUri": "/api/v2/users/e126d83f-f757-4dbc-8288-5762b3a81bab"
+    },
+    "images": [
+      {
+        "resolution": "x96",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/50240d03/60e8/451c/bd52/0de6dd104665.jpg"
+      },
+      {
+        "resolution": "x128",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/06546fe4/3c75/4688/9c10/d30a00a00bf9.jpg"
+      },
+      {
+        "resolution": "x200",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/91ed9139/0e3f/4087/a1e8/0230995e0967.jpg"
+      },
+      {
+        "resolution": "x48",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/ad9e55e5/63bf/4b5f/bf28/9e97367a714c.jpg"
+      },
+      {
+        "resolution": "x300",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/85199c29/5166/4d4c/bfd8/9e11aa35bc6a.jpg"
+      },
+      {
+        "resolution": "x400",
+        "imageUri": "https://prod-euw1-inin-directory-service-profile.s3-eu-west-1.amazonaws.com/3f486efd/b282/40d1/b337/5f219588c31c.jpg"
+      }
+    ],
+    "version": 9,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/e0d6d2c3-29c3-484b-b54c-aca9f3d34d14"
+  },
+  {
+    "id": "74a044bd-3d8a-4eb8-af49-b58c07c1fb89",
+    "name": "UserVoice",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5ba562ee2fe96914ad42226a@genesys-turkey.orgspan.com"
+    },
+    "email": "integration-uservoice-8bd6a2e0-bde5-11e8-afac-2995a2d7f7ce@webhook.com",
+    "primaryContactInfo": [
+      {
+        "address": "integration-uservoice-8bd6a2e0-bde5-11e8-afac-2995a2d7f7ce@webhook.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "integration-uservoice-8bd6a2e0-bde5-11e8-afac-2995a2d7f7ce@webhook.com",
+    "version": 2,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/74a044bd-3d8a-4eb8-af49-b58c07c1fb89"
+  },
+  {
+    "id": "d59a280d-35a8-42a8-8616-28fb01183956",
+    "name": "Wallboard1",
+    "division": {
+      "id": "57996355-bd13-4a07-a6f4-4c04c8233908",
+      "name": "Home",
+      "selfUri": "/api/v2/authorization/divisions/57996355-bd13-4a07-a6f4-4c04c8233908"
+    },
+    "chat": {
+      "jabberId": "5e3dd6e7c6edb314325bf594@genesys-turkey.orgspan.com"
+    },
+    "email": "wallboard1@nepado.com",
+    "primaryContactInfo": [
+      {
+        "address": "wallboard1@nepado.com",
+        "mediaType": "EMAIL",
+        "type": "PRIMARY"
+      }
+    ],
+    "addresses": [],
+    "state": "active",
+    "username": "wallboard1@nepado.com",
+    "version": 1,
+    "acdAutoAnswer": false,
+    "selfUri": "/api/v2/users/d59a280d-35a8-42a8-8616-28fb01183956"
+  }
+]

@@ -1,0 +1,4088 @@
+{
+  "id": "b176171c-a105-4d4e-a374-1d2f4fd3e87f",
+  "name": "HSBC Net Helpdesk Call Coaching Sheet",
+  "modifiedDate": "2023-05-25T10:03:03.010Z",
+  "published": false,
+  "contextId": "6159b60f-9ecb-4ce1-a8da-f0dcbc29a91b",
+  "questionGroups": [
+    {
+      "id": "9c816587-269f-4908-97c7-4ae0dbfdffbc",
+      "name": "Basics",
+      "type": "questionGroup",
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": true,
+      "questions": [
+        {
+          "id": "deace6af-cc7a-45c2-b922-e1802250142c",
+          "text": "Call Opening:\n\nDid the agent answer the call/chat immediately (within 10 seconds) when it was received? ",
+          "helpText": "Agent greeted the customer in a polite manner?",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "d60be079-3243-45cf-a03e-bf9f422eb6d4",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "6a56b1e2-a2cc-499b-ae2d-4b19490d22ad",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "adce37e7-f540-45ec-8b38-a0e6b51a08fc",
+          "text": "Call Opening:\n\nWas an appropriate welcome/greeting used ?  ",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "0ec7ca9e-d06d-4092-ad9f-861dcb998e29",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "0863aa37-3063-4955-93bd-8bd7802b5292",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4868a399-2d51-4add-93d4-e2334c3754f9",
+          "text": "Call Closing:\n\nDid the agent close the interaction correctly?  ",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "9fab78f2-3349-4e83-8491-a98d4ccb190a",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "e12d0a6d-5cd4-41c7-994d-3f6b1c6c3c8c",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "12715a3b-ccb5-4956-a8f7-82d1cac96dae",
+              "text": "N/A - Points Redistributed",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "98ed28c6-5461-4a03-aae1-6f4ee868c7a6",
+          "text": "Section Fail",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "OR",
+            "predicates": ["/form/questionGroup/0/question/0/answer/1"]
+          },
+          "answerOptions": [
+            {
+              "id": "ce18c239-7877-4f76-95a1-89ab19a7fd06",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "44de3731-afd4-4824-8ff9-18a80ac51a85",
+              "text": "No",
+              "value": 10
+            }
+          ],
+          "isCritical": true,
+          "isKill": false
+        },
+        {
+          "id": "cc02dbcc-8aa6-439c-84cc-3739f01363ef",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/0/question/2/answer/0",
+              "/form/questionGroup/0/question/1/answer/0",
+              "/form/questionGroup/0/question/0/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "b01efa8a-85ab-42c1-b8d4-04d0277d0c1f",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "acde6509-42d2-4e71-bdb5-fb32dc8a8370",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "f7999bfc-ceef-4a98-9139-676c6781913b",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/0/question/0/answer/0",
+              "/form/questionGroup/0/question/1/answer/0",
+              "/form/questionGroup/0/question/2/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "7df06030-034f-4fbd-8e2c-9dad939e5356",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "c2d93963-3c77-4b0b-99d1-8de93f6d3102",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "8c412ead-025a-4c0d-bd2f-8ad7a31fc4d5",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/0/question/0/answer/0",
+              "/form/questionGroup/0/question/1/answer/0",
+              "/form/questionGroup/0/question/2/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "4b5e1735-1467-44db-960c-1391b5ce9851",
+              "text": "Yes",
+              "value": 8
+            },
+            {
+              "id": "bb45d152-5ec4-4b19-8114-cc818c265517",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "fa35bb2b-be64-44f6-90fc-aacb9b7a05b2",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/0/question/0/answer/0",
+              "/form/questionGroup/0/question/1/answer/1",
+              "/form/questionGroup/0/question/2/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "be2924bc-37cc-4576-9da0-ec763bf89e3d",
+              "text": "Yes",
+              "value": 6
+            },
+            {
+              "id": "7e52516b-71e3-468e-a68c-9bb85fadf586",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "00cad77d-3855-49d9-925c-22d0b3d1f403",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/0/question/0/answer/0",
+              "/form/questionGroup/0/question/1/answer/1",
+              "/form/questionGroup/0/question/2/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "f94d1368-cd3a-48e5-b978-4ed3f3cb9bf3",
+              "text": "Yes",
+              "value": 6
+            },
+            {
+              "id": "31a28dd4-6757-4825-a353-d49cbec47520",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4cfd4a37-9c16-4702-bbef-d02d7321f04b",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/0/question/0/answer/0",
+              "/form/questionGroup/0/question/1/answer/1",
+              "/form/questionGroup/0/question/2/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "0c947952-08d4-4e60-9c9d-51046f8ced5f",
+              "text": "Yes",
+              "value": 4
+            },
+            {
+              "id": "5143fa24-39bd-4b79-9bc4-4406b6026162",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        }
+      ]
+    },
+    {
+      "id": "7c2bf7c4-11f4-41fb-b534-f3da49914ccb",
+      "name": "CALL/ CHAT QUALITY",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "d6290b3a-89c3-42a1-913d-2ad88b98d48c",
+          "text": "Rapport:\n\nWhat level of rapport did the agent display to engage the customer? ",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "b9268eaa-2b20-4576-afe7-0239be51a733",
+              "text": "Outstanding",
+              "value": 0
+            },
+            {
+              "id": "42e12245-0a3e-48e0-85f6-def152f90ef2",
+              "text": "Strong",
+              "value": 0
+            },
+            {
+              "id": "4291c2d2-dedb-46f1-b1a1-1049f75cdbfd",
+              "text": "Needs Improvements",
+              "value": 0
+            },
+            {
+              "id": "779af933-2e0b-479e-99a0-74802fdbcb5f",
+              "text": "Below Standard",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "67571222-001a-4c28-9ea6-f659f3b23e4a",
+          "text": "Ownership:\n\nWhat level of ownership did the agent display?  ",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "d9c1bcc8-bf47-442b-95d8-1c1fdc797007",
+              "text": "Outstanding",
+              "value": 0
+            },
+            {
+              "id": "f8a1be35-ed10-4c9f-8160-e177ff33e576",
+              "text": "Strong",
+              "value": 0
+            },
+            {
+              "id": "7d5d1a44-88f2-4361-9063-2446f3558a53",
+              "text": "Needs Improvements",
+              "value": 0
+            },
+            {
+              "id": "c02d7ecf-151d-4cce-bb50-bb614b8b35f0",
+              "text": "Below Standard",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "a19d6bb0-29f6-4589-ba87-ac5f57883267",
+          "text": "Ownership:\n\nDid the agent offer a call back / email to the customer? If yes, was the call back made / email sent within promised timelines?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "0d506960-13f4-4466-894d-c189e46e3a13",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "ba3c286e-44ee-46d6-86b4-911548dcca27",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "1c2c71d6-6aac-44e5-99d1-0dc9d87d242e",
+              "text": "N/A - Points Redistributed",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4e3aac6a-f3f9-498c-ac73-c259e19173cb",
+          "text": "Communication:\n\nHow effective was the agent's communication skills?  ",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "a5a09f20-c8f8-421f-958e-94562c9ee85f",
+              "text": "Outstanding",
+              "value": 0
+            },
+            {
+              "id": "86458902-938b-43b4-96bb-d0ad62e67260",
+              "text": "Strong",
+              "value": 0
+            },
+            {
+              "id": "44cdff90-f176-40b3-9d52-550688c014ca",
+              "text": "Needs Improvements",
+              "value": 0
+            },
+            {
+              "id": "f47e7498-2a40-4cc5-943f-94d07acc1ddc",
+              "text": "Below Standard",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "22038fb1-bf15-492b-a3df-266023e7c826",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "13987607-53ee-42b0-8356-218c9604ae47",
+              "text": "Yes",
+              "value": 35
+            },
+            {
+              "id": "9cd5b04a-9b94-4a6b-9cf2-b08037642931",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "d5806fa0-94d8-4932-bd34-68e19bfeae1c",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "0ebabdef-b38a-413b-ab2c-38547a52af87",
+              "text": "Yes",
+              "value": 35
+            },
+            {
+              "id": "f73ba600-fd35-4327-afe7-7123017e4675",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "7bbd827c-30de-41ef-9957-4e77fbb33a03",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "0379b747-dceb-4798-bc81-b3bfcd328a38",
+              "text": "Yes",
+              "value": 32
+            },
+            {
+              "id": "8a46a7c8-73b2-4038-80a4-a2f0afb4e463",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "f376ceb7-3a54-4b2f-814e-ca9089445a3a",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "c7582113-ccf8-4289-a840-c604bf724d71",
+              "text": "Yes",
+              "value": 32
+            },
+            {
+              "id": "a993beb1-7fcc-4d59-9714-c3fc11db97ed",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "28d11a51-f303-4b56-92bd-48a9a91351af",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "db4e332f-3bea-4757-a878-e0656970d148",
+              "text": "Yes",
+              "value": 28
+            },
+            {
+              "id": "7c5a47e8-ff50-4378-823b-0544dd51ca7e",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "30d59aa8-9d57-4b06-b576-6a3a4700235e",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "5b3bb421-7777-44ec-bd48-a7ef812e1ae2",
+              "text": "Yes",
+              "value": 28
+            },
+            {
+              "id": "40b79e55-e236-4007-86ed-bcd7b300d249",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "3379b3b9-d1f5-4899-9d4e-7b46676d2aa7",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "cb39a701-bf22-4c1a-9fad-fb34e76c8ff2",
+              "text": "Yes",
+              "value": 32
+            },
+            {
+              "id": "3d9a6621-b294-4664-8b96-6a644e0b9940",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "695c3dc5-f6a1-440b-a16b-b532778435bc",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "96b03aa6-1ef9-4467-a122-a388ee3ea67e",
+              "text": "Yes",
+              "value": 32
+            },
+            {
+              "id": "24aa0210-44fb-4160-9d2c-5be713d6d160",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "696152a7-a4b0-426f-8228-61f81210d0f6",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "32d203c4-3ad9-4bfc-bfad-a034faf402a5",
+              "text": "Yes",
+              "value": 30
+            },
+            {
+              "id": "5c59a60c-6c26-4ddc-aa34-ed03ded4e247",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4225e01d-fc38-42d1-9168-85906fe32d41",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "dce315e0-e419-4b92-8a13-cea11d844c10",
+              "text": "Yes",
+              "value": 30
+            },
+            {
+              "id": "e7b197e2-998d-41ee-a68e-824f2425815b",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "a3408b94-c06c-4e91-9feb-6a797a895961",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "45f41a6b-2abe-4d11-be9d-d4377bc2c133",
+              "text": "Yes",
+              "value": 32
+            },
+            {
+              "id": "46dafa2c-8584-4538-a5b5-8ac50064892e",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "76dbd98c-c784-4be3-acd7-ba79aa63c96c",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "ee71e30c-9b4b-4ad9-9052-00242110f1ca",
+              "text": "Yes",
+              "value": 32
+            },
+            {
+              "id": "0bf803a6-3e8b-41b8-85e1-e11c9e45461a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "8c5f4c0e-bd89-4d5d-9dac-bacf85809266",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "8b92aa6e-e024-446b-9079-1db669ca7145",
+              "text": "Yes",
+              "value": 30
+            },
+            {
+              "id": "a4a1c2a4-55f4-4c83-867e-9bdfcf65036c",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "0d52b3ff-4f23-4143-bce6-7003ded11dae",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "1298968b-c1ec-4b3f-ac3d-95bad07632f3",
+              "text": "Yes",
+              "value": 30
+            },
+            {
+              "id": "718354be-0b5e-4d49-840d-d5fd2448feb5",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "3d5844fb-10e7-4549-9da9-39cd8a8fef40",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "30f856ef-db7c-4d37-91de-78e211ab0bc8",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "43e2a8e2-174b-445b-be14-af8092af745a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "605784e6-dace-4dea-bc11-a238c9e1e855",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "fa104840-fc20-4271-9aca-b67c15a5833a",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "bb0aa5ad-2b37-4a31-a344-4b1f6bff226f",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "938f28ff-e664-4111-a95d-9d68fffd03df",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "bcd4ad5d-74a6-4e8d-bca3-23484a4953aa",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "a26b3eee-591a-4ea1-a981-4d8d65491a33",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "ab3b7b13-2030-4359-a5a7-ecf32232a936",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "ab5035a8-4c33-41d0-a021-1b1826b3259f",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "cf157c2a-32df-4429-83ab-0e799a6829f1",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "35e33eec-8471-4e63-be16-19b3dde0b4f4",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "5c6a3859-d537-4a05-ac3c-fb63d53c9941",
+              "text": "Yes",
+              "value": 26
+            },
+            {
+              "id": "2e0e072d-a18d-4eb2-b870-de39a46a42f1",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "c9f96192-7758-4982-9981-3306de1c037b",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "c2cb24bb-cfb3-4be6-bf61-7948d099417a",
+              "text": "Yes",
+              "value": 26
+            },
+            {
+              "id": "2ede8c3f-deed-4882-bc25-f96bf14240e4",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "788d886c-499a-4368-bfdb-de685be270d0",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "82ae127e-0af1-4d22-9933-d7e8d3829416",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "48983800-83e0-496a-8536-9974d16c6c81",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "46cab755-0c75-4edd-9812-bd6b0f83ae94",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "f86cae6d-0758-4019-bb5b-c41158c08fcb",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "acd2cb99-c9d8-4212-821b-1eba7f6112cc",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "1853d7f9-f689-4871-8fff-311e90070adb",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "c21fd03e-9260-4cf1-88b6-759737c5ba77",
+              "text": "Yes",
+              "value": 32
+            },
+            {
+              "id": "c4720db7-fc48-4273-abec-24b4f8a96342",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "9618aaad-0a6c-46c6-9a80-59378cce4ead",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "f5338256-dfd5-4d66-810c-697a648d5665",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "1768ee2d-e0a0-4399-aab2-2ebc2339f21d",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "c66fac93-3d87-401f-be88-0fe6109efca1",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "9beb8fbb-991e-4fe0-8b50-c8f91b182891",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "ab176e6c-075a-4cfb-b307-78d584e3c563",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "2567281d-9203-41e7-a51c-16bd7c6e15f3",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "4c1be553-bd93-4a5f-b24e-4a2d8c79e594",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "8177365d-4059-487a-ada7-8af8266ed73d",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "098417e7-99b1-4b49-a623-828e627251c6",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "2f955370-191d-4290-8258-6af50ddf5cc7",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "14320aa8-b575-4665-ac95-6eb1fcdbdf84",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "3b6da650-932f-4817-984b-1391ee48e343",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "34916fcb-07a1-4197-b4d8-388980112b03",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "0fbf1413-e17a-46f6-bd20-4807f8acae4b",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "bbef704c-85fc-4c50-b020-f3c46b0167af",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "fa61b38e-c7dc-4256-a870-ca13e3fe763d",
+              "text": "Yes",
+              "value": 26
+            },
+            {
+              "id": "4a5a3077-ea7e-45c2-b46d-69afa91afc00",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "b7ed1b36-e4f4-402c-80d8-52ed177bc278",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "05d44f68-b1e3-4055-8777-21d99b59868a",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "9d9004de-f369-471e-a840-67269fb9196a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "dfa2ef50-00ba-4206-a008-fc1c3edbdf83",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "2aa66b22-b9f3-4475-bb67-8ef9ac8c398c",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "2392c843-f3f6-4221-ba22-4241d30fe146",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "fd3d2b47-b0b6-4214-9853-3b996f557d78",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "fdd713ce-2ee7-4d3b-8b56-26cdd064da2e",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "733ac75e-65e0-4c48-b8ea-db7caa9a1b86",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "01a6fee3-cc29-4855-9bde-022a36722af5",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "3580c468-d13d-420a-b71e-4adcb0eefe2b",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "47df918d-d072-4c17-afc5-cffaea99db0e",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "8215b61b-3cc4-4a4b-9c47-a81fa39d71ca",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "be9a4331-eb0a-41bf-91b5-7e6834d4416e",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "8cf9d2a3-8414-4514-90e5-ba99568f1da6",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "216748ab-aa64-4cc6-96e7-f50f2b9cab0a",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "68d11250-6bc4-4821-9600-08a0fd00c3a8",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "02bc54aa-6c39-4c45-89a4-f979c057798b",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "5c0e61cc-2128-46f3-9dc9-5b02ca7cd67e",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "f0275459-4e24-46b7-8c9f-2c967c9f5f61",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "e8b315ea-c6ba-4082-8b05-9112401dc5b3",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "8dc1af1a-9bd7-44ed-872b-d19fe2fcd697",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "e570466d-82d6-4a6e-9d24-563a2709f81d",
+              "text": "Yes",
+              "value": 22
+            },
+            {
+              "id": "c6c172d3-9010-4f46-a538-a84e4090ddf5",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "574c7c89-f552-432c-9ec3-2e1b2118eebc",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "bad11d9c-da11-4f57-8817-3c143b63b259",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "38f3fb90-7870-42bb-b5c0-d78cde05e7d4",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "95e6757a-56c3-43ec-86c3-b19ddc1ce261",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/0",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "6927702e-c31f-49d4-ac49-001a70598790",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "b662a4f7-4892-4578-8e55-f2082ddde2ae",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "b3b12bba-bfde-4b29-9149-f41b1f430a9c",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "75d1a7eb-651a-43c3-b39a-dc45bea01359",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "3c105f50-2587-4c38-84bc-895471b112d0",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "d6c5ff16-9256-48aa-92c5-53cd0ece8e53",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "7c045c94-7164-4ca4-922b-40fc88369546",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "07587cfe-2e9b-458a-b5a7-f5909ac6e63a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "16c0a349-6012-420d-8f33-f69e2ea9206c",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "654718ea-af44-46fd-9a88-6aa7e299cfaa",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "72bc5cd3-b9da-47e3-897e-6fcc54e96613",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "178a52da-a531-4628-89b2-0ae5e97f18ac",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "1a3e1811-6478-4a74-851b-5fad34bc188b",
+              "text": "Yes",
+              "value": 26
+            },
+            {
+              "id": "f8130bfb-ac81-47a1-b8f0-acb50f368742",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "06559de6-6980-43b7-af67-8cae2c23c47a",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "1ec4eb30-2118-4ccf-acf7-99bb839312a2",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "39cd7458-a081-4ae6-9925-3b4bb0c7d465",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4ff17585-a310-4113-a5f3-24a7d62281f0",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "fa5ecf47-c57a-4a31-8f8b-949416442f52",
+              "text": "Yes",
+              "value": 29
+            },
+            {
+              "id": "384e7693-66c8-49f9-8351-79d838a04087",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "dd34cbfc-da5f-4b2a-b3f7-c0a69fed3e64",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "911719b9-798e-42c7-b8e2-37b95103e943",
+              "text": "Yes",
+              "value": 27
+            },
+            {
+              "id": "b5fa55fa-5d65-4333-a444-651f26792ea7",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "dd041a2c-5a43-4d7a-9dae-be9420fb088a",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "a743cfc3-b2d3-4f89-bcca-efbaad8613ca",
+              "text": "Yes",
+              "value": 26
+            },
+            {
+              "id": "9169434d-621d-4112-8e62-6b97051758e2",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "e3982e91-c6b3-447e-82cf-488293a781bf",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "8f19d775-4126-44bd-a177-79c810fed9e1",
+              "text": "Yes",
+              "value": 23
+            },
+            {
+              "id": "f1481841-06b2-4451-b36b-5cc83469933d",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "a3b5ed1e-4c12-4a7a-84c6-4df27538a54e",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "5ac826b2-2fb7-4fd2-918f-acc9afbf6846",
+              "text": "Yes",
+              "value": 21
+            },
+            {
+              "id": "a84ca59e-2660-498a-9954-14215c6642f4",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "df74c1bc-01e5-4faf-8a30-9aeccfc6c82d",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "c61a96c6-f52d-4901-839f-a3dee70c8c14",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "0ae52260-f745-4f5c-a510-81b3bfa42e26",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "d4332e99-1118-4cf1-9795-63b8adf56e36",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "8f951cfd-27af-47d3-9a2e-ec1fdde0571b",
+              "text": "Yes",
+              "value": 22
+            },
+            {
+              "id": "ab6aabdc-53be-4645-bdf4-f2da5afc4e2e",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "58cc543e-efcb-49c5-814a-0fe71ef5b0b5",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "8f6e8baf-0947-49d0-878e-32502c0a5d28",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "0cd34937-0932-42aa-959b-dc955bde7453",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "6b69accb-9f51-4041-8a9c-51bd6051d3b7",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "311ea781-fef9-4da6-a8d9-da5c99f95e11",
+              "text": "Yes",
+              "value": 21
+            },
+            {
+              "id": "44e22ba0-ceb5-4e91-b0a5-9a7fdb583d8e",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "8d11ce41-9ef9-48dd-ae79-ad4271d8b5cc",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "ddfcae8d-3c75-4854-a79b-b15ada75ba30",
+              "text": "Yes",
+              "value": 19
+            },
+            {
+              "id": "442dc195-8fac-4652-a104-5458aba44b2a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "7143d6cc-b69d-4b8f-867e-911cbaf01a2b",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "4a3f63f9-d4fe-49b2-b229-09494157c033",
+              "text": "Yes",
+              "value": 24
+            },
+            {
+              "id": "72347955-90ee-442d-862d-157d7f7287e8",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "66ce49df-6820-4c16-9dfd-409182274d42",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/1",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "3212ba82-2bfd-4cdd-b55c-14d4f0125c11",
+              "text": "Yes",
+              "value": 22
+            },
+            {
+              "id": "ab55be57-b493-4c37-b6ea-7962cd6369ce",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "da261b3a-f1db-4cfe-acdc-660507c07ef5",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "1a1617da-f39d-41bd-887b-79a185e64c83",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "a6ed7a21-1f35-4de5-954f-c11856c313b5",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "5c50a945-ca42-4685-9b52-dad941c6c30c",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "66d9496a-5cc6-4b6e-8375-8bf22368953b",
+              "text": "Yes",
+              "value": 23
+            },
+            {
+              "id": "0261835f-b0d6-479e-9806-e7532b2e8e3a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "dd3ec32d-1f5f-4376-8f9c-659fa7a626de",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "bfc81e1e-181b-4745-88db-15b3feb2c23b",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "157ece37-10bf-4af2-84ad-283ca2702ba9",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4976bb92-477e-4cdb-b3aa-ac411aa1aeeb",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "062b84f5-7750-4cec-aabe-07dcd79ae84e",
+              "text": "Yes",
+              "value": 22
+            },
+            {
+              "id": "babcc031-4291-4ff2-ad2b-116cb196a879",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "dffa8c0b-bf45-4fff-9d87-7802f3655531",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "b5e76fee-55e9-46ef-a791-4e182493c2fd",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "a34ecd3f-587c-4754-882d-4aa725aabb30",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "23bcae72-dea3-44f7-9b18-2ef1e74b3bd2",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "ffce4554-bbcd-4c4f-95e1-1e53e0592117",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "83e74b6e-2d66-475e-a404-92ca3bfcdb87",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "6639f28b-8661-4ca1-81b3-3b802a4f6658",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/0",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "750a7354-ee6d-49dc-8cff-c4df4201869b",
+              "text": "Yes",
+              "value": 23
+            },
+            {
+              "id": "7b9006d4-f88c-4630-9d4f-b9136b472a13",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4735cc8b-7411-4110-b02e-984659d372d6",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "110835a2-23e2-40cc-bcad-5424816128b1",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "c2898b4a-cd61-4c41-ab38-585a7b34edf8",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "0e5bf8fa-4713-4f13-8865-3186ff516528",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "dd161559-77b4-44f5-bbc3-f7fd1979cf09",
+              "text": "Yes",
+              "value": 22
+            },
+            {
+              "id": "6a22b360-6a94-4bf0-a82b-708da645d954",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "9089e50b-261e-4641-95e1-61db2772ae29",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "d1247761-d0a4-4f6f-8989-6c6e0ffcdd13",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "e75a129b-05db-48b3-9f06-9e51d884fad0",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "ee0e75fc-32ba-4784-8269-69e6dea949ce",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "f594a4c1-c6e2-43a0-940e-3c4ac815426e",
+              "text": "Yes",
+              "value": 22
+            },
+            {
+              "id": "a0fddce5-1984-4b3b-ae1a-ce629e1c8871",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "ee3ef22b-cb85-4239-96b3-0f21d39f72d7",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "7fd12b16-101d-4c2b-a826-0a0c9f0a1042",
+              "text": "Yes",
+              "value": 19
+            },
+            {
+              "id": "b89ea74c-6d5f-4151-96d0-3222d44c46eb",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "73d06f4f-69d1-4e09-9be9-b0f7a157fb71",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "f9e08f32-502d-4530-9b7f-8de791dacf08",
+              "text": "Yes",
+              "value": 17
+            },
+            {
+              "id": "584613e2-3803-4313-b195-cff8a8d5e1d0",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "c0ba076e-b4f8-4262-a677-b347c8ac5dcd",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "897e6dc6-2a1d-4e5d-afbe-0451d36992c7",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "5cfcd297-cfe8-486d-8afe-f6f20abe08bb",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "e60780ea-a2e5-4e2b-bde4-22647eeed498",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "19d74f46-7836-4865-a1be-d594e439b927",
+              "text": "Yes",
+              "value": 22
+            },
+            {
+              "id": "d8360108-7a47-4450-9ff3-5403c7e6cd9f",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "17a8fb90-2025-4cf1-a20c-5da50575ea48",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/1",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "ad0f7353-d666-4e25-9810-71ceca3350d5",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "1b7b708e-42bb-4196-bfdd-eee7def18385",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "0d4b6dee-36d6-4f8f-8ff0-ce1113a1fca7",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "81b962ae-3a7f-438c-be9b-f72de926419b",
+              "text": "Yes",
+              "value": 23
+            },
+            {
+              "id": "053ebec2-7405-4e76-bd67-9ddc86a12be6",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "a90e1f10-116a-4c3e-bddc-d3de9cca4909",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "dbdfc7c4-4683-429f-9bf2-a36fd71d264b",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "42174ac3-a6df-4c54-bc51-fbec58a54bb7",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "c2ee2bba-317c-467c-9fb5-4a8a31502fbf",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/0",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "4236e7e0-2901-4a01-bedf-db01c8e718a6",
+              "text": "Yes",
+              "value": 18
+            },
+            {
+              "id": "b4352511-54b4-4957-8e58-d7d8ddcee28b",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "aad4a804-9b32-43d4-9ff9-b9417bb68f49",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "d032f7ed-5fa3-4bd1-b9e8-b8281c696993",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "2243f3d6-8b01-4d24-9662-740567a1f677",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "bcc41c36-1adf-4d1c-9ecd-a2dbef737ad5",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "968f9ba6-2e5e-49d8-a2e4-fc0044fa197d",
+              "text": "Yes",
+              "value": 17
+            },
+            {
+              "id": "976b5bcd-21bb-4779-9840-ed537ec313df",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "62750c9e-ade6-42e0-95fa-b3c1e93475f7",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/1",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "eb39d1e0-1ee5-439c-805b-d329dd02db40",
+              "text": "Yes",
+              "value": 15
+            },
+            {
+              "id": "774f7da4-a27b-4d34-be8a-fb9ef04d9d83",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "7b89e05d-f1c2-4d0d-8d4c-b2a528b43269",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "902abcd4-4a3f-4dea-8876-50c179737c86",
+              "text": "Yes",
+              "value": 23
+            },
+            {
+              "id": "67cb492d-11b6-440e-afdc-679931ac9aac",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "226aa439-832c-4c4d-9448-4ba9af7589c4",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "82f6cffa-e588-4a91-9cd3-53ccbab8db4d",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "98f1a59f-b346-4d8e-bb2a-ee6b62bb497b",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "1dabf351-8160-4ab2-922f-8a7301a55635",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/2",
+              "/form/questionGroup/1/question/1/answer/2",
+              "/form/questionGroup/1/question/2/answer/2",
+              "/form/questionGroup/1/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "daa861b2-0372-45ac-921b-cbd57399319c",
+              "text": "Yes",
+              "value": 18
+            },
+            {
+              "id": "99395444-f01e-435d-98ba-7d936b27697c",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "1dc3e5c7-4d92-4b69-bfe4-e62b09c88638",
+          "text": "Section Fail",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "OR",
+            "predicates": [
+              "/form/questionGroup/1/question/0/answer/3",
+              "/form/questionGroup/1/question/1/answer/3",
+              "/form/questionGroup/1/question/3/answer/3"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "6c229b36-7cb2-45ee-b103-ef2e7fb08475",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "617091b3-6d5d-4122-8e3c-0786416c456b",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        }
+      ]
+    },
+    {
+      "id": "bd037b75-448d-4d0e-aabf-6a944ee2fbba",
+      "name": "Customer Needs",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "dbef273c-56ec-41fd-93f6-e959c82346cb",
+          "text": "Service Optimized:\n\nDid the agent discover or identify the customer's primary reason/s for contacting the bank or establish a reason for requesting assistance?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "5395fbae-d0e0-4a1b-8609-c21369041f8f",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "50b03aa2-339e-4d76-b4c1-8267df4d0c02",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "b4690c3b-e008-4974-a4b4-5bf68922cbfa",
+          "text": "Service optimized:\n\nDid the agent use appropriate trouble-shooting path to identify the issue? Eg did they look at the right screens/systems and ask only relevant questions?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "ed490dba-181c-417e-8a9b-0d9260da24b7",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "6ad9f892-d081-4bc6-a277-65ffabc1b380",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "45067dbb-a25b-4ff8-b0cd-732e4a56ae6e",
+          "text": "Service Optimized:\n\nWas the customer's reason for calling accurately addressed / Was accurate information provided ? \nWere next steps clearly explained where necessary?",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "1328759e-e7e7-4ed5-ad37-31966f47ddaf",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "e92ccfd4-3036-4ddf-8398-0b37845641b5",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "9cab9ade-7a1a-4fbd-af0d-9171c9740e40",
+              "text": "Major Error",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "6f99f842-2337-447e-88ca-9da8d6aefa0f",
+          "text": "Service Optimized:\n\nWere servicing and value add options explained to the customer (with  focus on self service options) when appropriate? Eg Virtual Assistant, Help Centre, Message Centre\n",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "bd81b7f3-1490-4c46-aa3d-820c5855f136",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "ab7381c0-ecb2-4547-ab08-71098af9bba3",
+              "text": "No",
+              "value": 0
+            },
+            {
+              "id": "2053a45b-26d1-47b5-aeb4-111f942a4698",
+              "text": "N/A - Points Redistributed",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "d24d7909-cbfd-4abf-99ce-11549eac7efd",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "8cc873d6-5188-4352-9439-0732e742956b",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "de7929cb-f431-4cb8-8594-c37dbbf64e7c",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "a158b823-de56-4e54-9ad6-1fa4e966ea8b",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "d189530c-1594-471c-93fd-32cda2d98030",
+              "text": "Yes",
+              "value": 5
+            },
+            {
+              "id": "825e5992-4ea7-425f-b8b1-ebed9716767c",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "23c2084f-cb9f-4a61-abc4-c80373202768",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "c303a170-85a3-44e3-be6d-94b2340e01e8",
+              "text": "Yes",
+              "value": 5
+            },
+            {
+              "id": "629e8fb8-2817-4988-84b7-560876ab796d",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "344fc3ca-cc59-44f3-9938-f2b6b81ad9fe",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "20778891-e3e5-427e-acd8-d1947eb43888",
+              "text": "Yes",
+              "value": 15
+            },
+            {
+              "id": "48a62985-c519-4a98-bc31-73354434e586",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "10103c03-5d9a-4fe8-8c1a-8f55acd19c54",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "f81c0712-722a-41c4-aa46-e9211ca3ff55",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "47860a73-9902-457e-92fd-c47d6d3df1bd",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "1dd2e4d5-2c4a-485b-9d4a-31f6fd957078",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "2d890a8b-e6be-40d2-b940-13e2b8ac71c8",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "59d75515-2cce-48f6-aa4a-d0badac91819",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "db6687af-17ef-44b8-86cd-4a7bcff44fa5",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "ad67903a-5609-4982-9231-58bceb27cf60",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "57780a37-68c4-4077-99ba-52835cca9e8b",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "e2701318-30cb-4552-b641-f57d95a8c192",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "c015ff68-8d4b-49db-9b3e-cd6bef5275d4",
+              "text": "Yes",
+              "value": 15
+            },
+            {
+              "id": "9aedb353-e46e-4d7d-b432-8e466b3a8e40",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "fea3a65d-0392-4de4-a1f1-2844ef072a0d",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "dc0175e0-19cd-4847-85bb-23cd3dccb538",
+              "text": "Yes",
+              "value": 15
+            },
+            {
+              "id": "bf970290-0cbe-4bd4-a89c-195b3756a4f4",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "e68311a0-8544-4cd0-9f8b-52974aed8eec",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "17e2c2d0-7980-4c13-8154-8d7d97d4e288",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "d6a08247-228b-4a7a-8b59-e7c65e32a38f",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "0fca46da-d821-4403-bb53-b6d4d0e2d994",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "86330873-c5f8-47bf-8917-5022ab776650",
+              "text": "Yes",
+              "value": 30
+            },
+            {
+              "id": "3ff19744-802a-4e38-838c-25088b6690d7",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "482fadd4-9eca-4dae-91ca-1c9f7fed4fd6",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/1",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "17e8b214-e342-4628-8313-5d4e1712c73a",
+              "text": "Yes",
+              "value": 30
+            },
+            {
+              "id": "079461c6-81fd-4932-92d1-87a74fde77d9",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "b7ed3ba9-f73b-4c7b-8573-889971840e20",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "9a6205cf-3a29-4b67-a3a3-c7d2b12fef74",
+              "text": "Yes",
+              "value": 5
+            },
+            {
+              "id": "ccbb9e87-43bd-4c85-ae55-2c2ae268d392",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "9370ab49-e39f-4f61-92d8-78d12dee8f77",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "84275ad9-c506-4b66-a49c-3d7c17e6e5f1",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "3b9c2dbd-d158-4e89-bfe5-b1b5447b316a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "ed713a0a-7c41-4c75-88aa-2d08f6b2f0f8",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "a3858738-83f4-4b09-bf06-002998d6362a",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "0bb4238a-18a5-45af-80e7-f2a030450262",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "99b69968-37e5-4b32-87f9-bb47fb53c27e",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "fe7b07c2-0222-4735-96f3-8f70776a25ef",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "5c0a8431-8bbe-45d7-987e-02f3e6f32899",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "32c515c2-e929-4899-92aa-726da6f7cbee",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "591b187f-bbc8-49bc-9ed8-498e552d0e8a",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "924bd0bc-b2fa-433a-ae7b-09b74804a901",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4c63bf71-096b-41f6-aaaa-5f876622d495",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/1",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "e93882d2-2026-4d8e-a67d-5541d3c6fe40",
+              "text": "Yes",
+              "value": 25
+            },
+            {
+              "id": "6590e846-278c-421a-950b-094e0143ed3d",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "078f4486-01e8-4154-ba03-f80062aa3cc3",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "e5c97cb6-d8ad-4dde-b606-cb3c1445ca44",
+              "text": "Yes",
+              "value": 15
+            },
+            {
+              "id": "bcb20590-c1fb-4636-84b2-773ca5c8ac71",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "fe2c3fb8-eb70-4329-87a0-f9bb1d4f1a1c",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "48bf67a3-ca36-4ca0-ac4e-e9ad1b8fbb9a",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "afd87095-8d7b-475a-873c-2f3b5fbdbf46",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "d5850f08-5a62-45f9-95bf-676240d359ef",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/1",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "5a5c2af5-9b06-4875-b63b-7e63d1add289",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "61006d57-22e5-4a63-bef3-1fded8805161",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "59ba48f1-e7f7-453a-9446-5e49383962f5",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "541d8cf0-3fd9-462c-811f-bbea4fab900a",
+              "text": "Yes",
+              "value": 30
+            },
+            {
+              "id": "0028d887-42ba-4da8-bde7-1a82ab7c3562",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "06ef3294-af71-4f0a-88bf-add92937214f",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "2bb9c7a6-1615-4350-bf2c-43756960902f",
+              "text": "Yes",
+              "value": 35
+            },
+            {
+              "id": "79ba3503-0131-414a-9f87-c827c1480725",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "3e532198-b01d-4b6b-97b2-30fa25e8463d",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/2/question/0/answer/0",
+              "/form/questionGroup/2/question/1/answer/0",
+              "/form/questionGroup/2/question/2/answer/0",
+              "/form/questionGroup/2/question/3/answer/2"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "a680d0ae-1546-4206-82c1-28b637dc6da0",
+              "text": "Yes",
+              "value": 35
+            },
+            {
+              "id": "ba988d03-5147-4c5e-b185-56c60d506972",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "d267bb4c-08cd-4645-af44-c57029037ece",
+          "text": "Section Fail",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": ["/form/questionGroup/2/question/2/answer/2"]
+          },
+          "answerOptions": [
+            {
+              "id": "b9950daa-dc58-47b9-a48b-9b4f7852d773",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "9d668465-37e9-4166-b802-3dbf273eb06a",
+              "text": "No",
+              "value": 35
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        }
+      ]
+    },
+    {
+      "id": "6b2cdfd4-ed5e-43ef-a690-b22d917c1270",
+      "name": "Technical Adherence",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": true,
+      "questions": [
+        {
+          "id": "e8a5c806-edb7-40ea-b68a-39db6afa4531",
+          "text": "Adherence to internal policies & procedures:\n\nDid the agent follow proper policies and procedures, including appropriate logging in ECHO? And inappropriate disclosure of Internal, Restricted or Highly Restricted information? (Including ID&V performed on the user)* see checklist",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "e48c7422-3b99-4aae-bfcb-f5d08ed31415",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "86198cc4-b2d1-4034-a182-a613bc2a29ec",
+              "text": "Minor Error",
+              "value": 0
+            },
+            {
+              "id": "b3d3439f-d8bd-431a-87d4-145a0bd85db7",
+              "text": "Major Error",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "4cd5c7ac-f500-4af6-8747-9ea23457365e",
+          "text": "Adherence to internal policies & procedures:\n\nDid the agent follow the correct regulation and compliance standards?  Including when a query was not logged as a complaint when it should have been. * see checklist",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "b2e41445-0fe6-4b1d-9378-f69b70ad3800",
+              "text": "No/Low Risk",
+              "value": 0
+            },
+            {
+              "id": "21ff12ef-0d50-43a5-80f8-9cf0697d0a94",
+              "text": "Medium Risk",
+              "value": 0
+            },
+            {
+              "id": "a263b23e-8fbc-496f-8639-267e113e30d0",
+              "text": "High Risk",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "c76b4501-672b-4fea-a308-42551f7ac5f7",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/3/question/0/answer/0",
+              "/form/questionGroup/3/question/1/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "6610524f-bc7a-405e-a9bd-ade985493baf",
+              "text": "Yes",
+              "value": 20
+            },
+            {
+              "id": "76441235-3210-4ae1-8328-5a98d48389e9",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "c7d133e6-3067-419d-8558-60ebd6a42c1c",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/3/question/0/answer/1",
+              "/form/questionGroup/3/question/1/answer/0"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "cd5f49cf-7ce9-42e5-a964-4730f2cfba95",
+              "text": "Yes",
+              "value": 15
+            },
+            {
+              "id": "a4e772b6-d210-43c8-a86e-da2ff4fefab2",
+              "text": "No",
+              "value": 20
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "9d842bb8-af3b-462d-be8a-e7763aeb1784",
+          "text": "Section Fail",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": ["/form/questionGroup/3/question/0/answer/2"]
+          },
+          "answerOptions": [
+            {
+              "id": "a8be0c6e-7249-4652-807d-6ed2d67e16c3",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "1b7efd8b-77e0-45a9-a7e8-2700b2c2b482",
+              "text": "No",
+              "value": 20
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "7ffc38a3-5d27-42ac-bbd9-fd41644ed17e",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/3/question/0/answer/0",
+              "/form/questionGroup/3/question/1/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "80d2f7fb-2874-4c66-8850-ef6d81cd0266",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "9601e6d3-da69-4458-a081-0fc9b705e91f",
+              "text": "No",
+              "value": 20
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "6fc8e664-852e-451b-a046-41bee18581f6",
+          "text": "Section Pass",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": [
+              "/form/questionGroup/3/question/0/answer/1",
+              "/form/questionGroup/3/question/1/answer/1"
+            ]
+          },
+          "answerOptions": [
+            {
+              "id": "31739c3f-09b5-4c37-bac1-9ac240f3005f",
+              "text": "Yes",
+              "value": 5
+            },
+            {
+              "id": "61eff0a2-2732-413c-9c7e-48ee1da8c752",
+              "text": "No",
+              "value": 20
+            }
+          ],
+          "isCritical": false,
+          "isKill": false
+        },
+        {
+          "id": "026b9f32-c9dc-454d-a757-1087d4ce21c4",
+          "text": "Form Fail",
+          "helpText": "",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "visibilityCondition": {
+            "combiningOperation": "AND",
+            "predicates": ["/form/questionGroup/3/question/1/answer/2"]
+          },
+          "answerOptions": [
+            {
+              "id": "cb440ed9-44e2-4563-b30f-3519030c7259",
+              "text": "Yes",
+              "value": 0
+            },
+            {
+              "id": "7276b9dd-3693-477e-923e-38ddb66b53bf",
+              "text": "No",
+              "value": 20
+            }
+          ],
+          "isCritical": true,
+          "isKill": true
+        }
+      ]
+    }
+  ],
+  "weightMode": "SCALED",
+  "selfUri": "/api/v2/quality/forms/evaluations/b176171c-a105-4d4e-a374-1d2f4fd3e87f"
+}

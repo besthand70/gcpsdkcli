@@ -1,0 +1,87 @@
+{
+  "id": "dbbff453-02c0-461c-96e3-dcfdd90cb8ce",
+  "name": "GTRF Trade",
+  "modifiedDate": "2023-05-23T09:44:27.777Z",
+  "published": false,
+  "contextId": "7f517df8-f1f2-4441-adb5-9e177dc008c9",
+  "questionGroups": [
+    {
+      "id": "c7071e68-1c3f-454c-8797-77b79a307273",
+      "name": "Opening",
+      "type": "questionGroup",
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": true,
+      "questions": [
+        {
+          "id": "d917628e-d669-4d73-a4ad-7d5dc5c72ab0",
+          "text": "Appropriate opening used?\n\n",
+          "helpText": "Agent welcomed them to HSBC in a warm and polite manner",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "9ce77809-2e59-4304-8f56-654b0f7b0155",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "502deb12-8d68-4b85-b132-5c3ae739a977",
+              "text": "Partially met",
+              "value": 5
+            },
+            {
+              "id": "ed565eb8-2e87-41fc-be8e-8a2f2f367ddd",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    },
+    {
+      "id": "45175159-fad1-4cfb-904d-e3d99c89f7d2",
+      "name": "Closing",
+      "type": "questionGroup",
+      "defaultAnswersToHighest": false,
+      "defaultAnswersToNA": false,
+      "naEnabled": false,
+      "weight": 100.0,
+      "manualWeight": false,
+      "questions": [
+        {
+          "id": "a4643b6b-b810-4d10-9e49-868de6ab0258",
+          "text": "Did the agent close the call in an appropriate way?",
+          "helpText": "Thank the customer for the call and offer any further support",
+          "type": "multipleChoiceQuestion",
+          "naEnabled": false,
+          "commentsRequired": false,
+          "answerOptions": [
+            {
+              "id": "709b77ea-7388-4f8c-ae98-6668177b4163",
+              "text": "Yes",
+              "value": 10
+            },
+            {
+              "id": "874693fc-d7ea-49b1-8f5a-9ed00c4354e1",
+              "text": "Partially met",
+              "value": 5
+            },
+            {
+              "id": "d63b94b4-4fab-426c-9cc8-e640da2db416",
+              "text": "No",
+              "value": 0
+            }
+          ],
+          "isKill": false,
+          "isCritical": false
+        }
+      ]
+    }
+  ],
+  "weightMode": "SCALED",
+  "selfUri": "/api/v2/quality/forms/evaluations/dbbff453-02c0-461c-96e3-dcfdd90cb8ce"
+}

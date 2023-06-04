@@ -1,0 +1,11 @@
+role,legacyPermission
+admin (B:false D:true),content_management_user
+admin (B:false D:true),admin
+admin (B:false D:true),employee
+admin (B:false D:true),content_management_admin
+Developer (B:false D:true),integration_config_administration
+integrationServer (B:false D:true),admin
+employee (B:true D:true),location_contributor
+employee (B:true D:true),content_management_user
+employee (B:true D:true),employee
+UserVoicemailAccessPermission (B:false D:false),voicemail:voicemail:receive

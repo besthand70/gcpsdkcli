@@ -1,0 +1,5 @@
+ID,Name {{ printf "\n"}}
+{{- range .entities -}}
+{{ .id }},{{ .name }}
+{{ printf ""}}
+{{- end -}}

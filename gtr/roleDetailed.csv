@@ -1,0 +1,49 @@
+name, description, defaultRoleId, userCount, base, default 
+Agent, Role for basic agent functions, agent, 1, false, true
+admin, Organization Administrator, admin, 15, false, true
+Agent Alerts, <no value>, <no value>, 4, false, false
+AI Agent, Provides agent access to the AI services, aiAgent, 4, false, true
+Engage Supervisor, Engage role for supervisory functions, engageSupervisor, 11, false, true
+Genesys Cloud Voice Admin, Genesys Cloud Voice role for purchasing numbers and viewing number inventory, voiceAdmin, 3, false, true
+Engage User, Engage role for basic agent functions, engage, 21, false, true
+integrationServer, Integration Server role allows Bridge Connectors to communicate with PureCloud. Do not edit or remove., integrationServer, 12, false, true
+Email Ninja_Supervisor, <no value>, <no value>, 1, false, false
+Architect User, <no value>, <no value>, 2, false, false
+Callback create, <no value>, <no value>, 8, false, false
+Embeddable Framework User, integration.customEmbeddableFramework.*, <no value>, 7, false, false
+employee, Directory - Employee, employee, 40, true, true
+Knowledge, Custom role to use knowledge features, <no value>, 1, false, false
+Co-browse Agent, Role for Co-browse agent functions, cobrowseAgent, 5, false, true
+Email Ninja, <no value>, <no value>, 1, false, false
+Developer, Developer of Public API client applications, developer, 12, false, true
+Digital Agent, Role for digital agent functions, digitalOnlyUser, 0, false, true
+Callflow Data Service Role, <no value>, <no value>, 1, false, false
+Communicate - User, Communicate role for placing calls, unifiedCommunication, 20, false, true
+Communicate - Admin, Communicate Administrator, unifiedCommunicationAdmin, 11, false, true
+Co browse, <no value>, <no value>, 4, false, false
+External Contacts Read Only, <no value>, <no value>, 3, false, false
+Email Ninja_Agent, <no value>, <no value>, 0, false, false
+Email Ninja_Admin, <no value>, <no value>, 1, false, false
+Open Messaging Gateway, <no value>, <no value>, 0, false, false
+Master Admin, Engage Administrator, masterAdmin, 13, false, true
+Performance Management Admin, Role for Performance Management functions, performanceAdmin, 3, false, true
+Mobile WebRTC Telephony, Role to use WebRTC station telephony on the new Genesys Cloud Communicate mobile app, <no value>, 12, false, false
+Outbound Admin, Administrator for outbound dialing, outboundAdmin, 12, false, true
+Outbound Agent, Agent for outbound dialing, outboundAgent, 17, false, true
+WFM Team Leader, <no value>, <no value>, 0, false, false
+Wallboard User, Provides minimal permission to display a wallboard, wallboardUser, 3, false, true
+Webdeployments Admin, Webdeployments Admin, <no value>, 3, false, false
+Supervisor, Role for supervisory functions, engageSupervisor, 3, false, true
+Trusted External User (Manual), I have created this Trusted External User role manually because it was not present in my org, because it was created before May 17, 2017., <no value>, 0, false, false
+Quality Evaluator, Can score Quality Management evaluations, qualityEvaluator, 12, false, true
+UserVoicemailAccessPermission, Transition role that grants a user access to voicemail, <no value>, 5, false, false
+Telephony Admin, Communicate role for telephony configuration, telephonyAdmin, 11, false, true
+Planner Admin, Planner Administrator, plannerAdmin, 2, false, true
+Screenshare Agent, Role for Screenshare agent functions, screenshareAgent, 1, false, true
+Script Designer, Enables a user to create scripts, manage existing scripts, make scripts available for use by publishing them, and manage published scripts, scriptDesigner, 11, false, true
+Quality Administrator, Administrator for Quality Management resources and functions, qualityAdmin, 12, false, true
+Salesforce Agent, Provides standard agent access to the Salesforce integration, salesforceAgent, 12, false, true
+Predictive Routing, Provides a user access to predictive routing resources, predictiveRouting, 3, false, true
+User, Role for basic agent functions, engage, 3, false, true
+Relate User, Relate role for basic external contact functions, relate, 19, false, true
+
