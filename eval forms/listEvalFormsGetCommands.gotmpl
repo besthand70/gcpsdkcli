@@ -1,0 +1,4 @@
+echo exporting {{ .total}} QM evaluation forms from hsbc-devorg 
+{{ range .entities -}}
+gc quality forms evaluations get {{ .id }} --profile hsbc-devorg >"{{- .id }}_{{ .name -}}.json"
+{{ end -}}
